@@ -1,0 +1,19 @@
+# Starship shell prompt config
+#
+# Author: MythicalNewt
+
+# Inserts a blank line between shell prompts
+add_newline = false
+
+[line_break]
+disabled=true
+
+#Replace the "❯" symbol in the prompt with "ﬦ"
+[character]                            # The name of the module we are configuring is "character"
+success_symbol = "[ﬦ](bold green)"     # The "success_symbol" segment is being set to "ﬦ" with the color "bold green"
+error_symbol = "[ﬦ](bold red)" 
+vicmd_symbol = "[ϟ](bold green)"
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
