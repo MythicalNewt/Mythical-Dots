@@ -5,7 +5,7 @@
 "(_)_/ |_|_| |_| |_|_|  \___|
 
 " vimrc with little tweaks
-" Author: Shreyas
+" Author: MythicalNewt
  
 " show numbers as default
 :set number
