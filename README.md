@@ -2,6 +2,7 @@
 <h3>i3wm-dotfiles</h3><br>
 Expect some changes compared to the screenshots since im daily driving these dots.<br>
 Most color schemes are tokyo-night-storm.<br>
+Wallpaper used in screenshots is rain-blue.<br>
 <br>
 <h3>Screenshots</h3><br>
 
