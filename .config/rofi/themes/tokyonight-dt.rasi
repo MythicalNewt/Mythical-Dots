@@ -1,0 +1,99 @@
+/**
+ * ROFI Color theme
+ * NAME: dt-center.rasi
+ * DESCRIPTION: This is a centered prompt.
+ * AUTHOR: Derek Taylor (DT)
+ * Modified to fit tokyonight
+ */
+
+* {
+    background-color:            #24283b;
+    border-color:                #7dcfff;
+    text-color:                  #d5e0e6;
+    font:                        "JetBrainsMono Nerd Font 9";
+    prompt-font:                 "JetBrainsMono Nerd Font Bold 9";
+    prompt-background:           #bb9af7;
+    prompt-foreground:           #24283b;
+    prompt-padding:              4px;
+    alternate-normal-background: #24283b;
+    alternate-normal-foreground: @text-color;
+    selected-normal-background:  #bb9af7;
+    selected-normal-foreground:  #24283b;
+    spacing:                     3;
+}
+#window {
+    border:  2;
+    padding: 5;
+}
+#mainbox {
+    border:  0;
+    padding: 0;
+}
+#message {
+    border:       1px dash 0px 0px ;
+    padding:      1px ;
+}
+#listview {
+    fixed-height: 0;
+    border:       2px dash 0px 0px ;
+    spacing:      2px ;
+    scrollbar:    true;
+    padding:      2px 0px 0px ;
+}
+#element {
+    border:  0;
+    padding: 1px ;
+}
+#element.selected.normal {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+#element.alternate.normal {
+    background-color: @alternate-normal-background;
+    text-color:       @alternate-normal-foreground;
+}
+#scrollbar {
+    width:        0px ;
+    border:       0;
+    handle-width: 0px ;
+    padding:      0;
+}
+#sidebar {
+    border: 2px dash 0px 0px ;
+}
+#button.selected {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+#inputbar {
+    spacing:    0;
+    padding:    1px ;
+}
+#case-indicator {
+    spacing:    0;
+}
+#entry {
+    padding: 4px 4px;
+    expand: false;
+    width: 10em;
+}
+#prompt {
+    padding:          @prompt-padding;
+    background-color: @prompt-background;
+    text-color:       @prompt-foreground;
+    font:             @prompt-font;
+    border-radius:    2px;
+}
+
+element-text {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+/* Not actually relevant for this configuration, but it might
+be useful to someone having issues with their icons' background color
+
+element-icon {
+    background-color: inherit;
+}
+*/

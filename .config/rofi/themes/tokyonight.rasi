@@ -1,0 +1,73 @@
+  {
+  width: 30;
+  font: "JetBrainsMono Nerd Font 10.5";
+  terminal: "alacritty";
+  disable-history: false;
+  sidebar-mode: true;
+  tokenize: true;
+  m: "-5";
+  line-margin: 3;
+  line-padding: 5;
+  separator-style: "none";
+  hide-scrollbar: true;
+  window-format: "{w} {c}";
+  display-drun: "Apps";
+  display-run: "Run";
+  display-window: "Windows";
+}
+
+* {
+  /*bg: #929799;*/
+  bg: #24283b;
+  fg: #d5e0e6;
+  accent: #bd9af7;
+  button: #414868;
+
+  background-color: @bg;
+  text-color: @fg;
+}
+
+window {
+  padding: 36px;
+  border-radius: 4px;
+  border:3px;
+  border-color:#313536;
+}
+
+prompt, entry {
+  text-color: @fg;
+  padding: 10px;
+}
+
+
+entry {
+    border-radius : 0 4px 4px 0;
+    margin: 0 0 10px 0;
+prompt {
+    background-color: @accent;
+    text-color: @bg;
+    border-radius: 4px 0 0 4px;
+    margin: 0 0 10px 0;
+}
+
+element {
+  border-radius: 2px;
+  padding: 6px 5px;
+}
+
+element selected {
+  background-color: @fg;
+  text-color: @bg;
+}
+
+button {
+    padding: 6px;
+    margin: 10px 0 0 0;
+}
+
+button selected {
+  background-color: @accent;
+  text-color: @bg;
+  border-radius: 2px;
+  padding: 4px;
+  }
