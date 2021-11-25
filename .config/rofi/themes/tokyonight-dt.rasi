@@ -48,6 +48,7 @@
 #element.selected.normal {
     background-color: @selected-normal-background;
     text-color:       @selected-normal-foreground;
+    border-radius: 2px;
 }
 #element.alternate.normal {
     background-color: @alternate-normal-background;
