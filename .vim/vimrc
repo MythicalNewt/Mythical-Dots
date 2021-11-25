@@ -1,0 +1,65 @@
+"       _
+"__   _(_)_ __ ___  _ __ ___
+"\ \ / / | '_ ` _ \| '__/ __|
+" \ V /| | | | | | | | | (__
+"(_)_/ |_|_| |_| |_|_|  \___|
+
+" vimrc with little tweaks
+" Author: Shreyas
+ 
+" show numbers as default
+:set number
+
+" Plugin manager handling YCM
+execute pathogen#infect()
+syntax on
+"filetype plugin indent on
+
+" youcompleteme
+let g:ycm_global_ycm_extra_conf = "/home/shreyas/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py"
+
+" plug imports
+set nocompatible
+call plug#begin()
+
+Plug 'ryanoasis/vim-devicons'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'https://github.com/preservim/nerdtree.git'
+Plug 'https://github.com/ap/vim-css-color.git' 
+Plug 'PotatoesMaster/i3-vim-syntax'
+Plug 'sheerun/vim-polyglot'
+Plug 'ghifarit53/tokyonight-vim'
+
+call plug#end()
+
+let g:tokyonight_style = 'storm' " available: night, storm
+let g:tokyonight_enable_italic = 1
+let g:tokyonight_transparent_background = 1
+
+colorscheme tokyonight
+let g:lightline = {'colorscheme' : 'tokyonight'}
+
+set laststatus=2
+set noshowmode
+
+" NERDTree
+let g:NERDTreeFileExtensionHighlightFullName = 1
+let g:NERDTreeExactMatchHighlightFullName = 1
+let g:NERDTreePatternMatchHighlightFullName = 1
+let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
+let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
+
+" tabwidth change for java
+autocmd Filetype java setlocal tabstop=2
+autocmd Filetype java setlocal shiftwidth=2
+set encoding=utf-8
+ 
+" Split settings
+
+set splitbelow splitright
+
+" Remapping move keys to only ctrl+<vim keys>
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
