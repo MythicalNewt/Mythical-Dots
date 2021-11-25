@@ -1,0 +1,26 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "66ec9f54-9263-4f68-b3fb-04ae924d039b"
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "spell-check"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontFamily: "JetBrainsMono Nerd Font"
+    invisibles:
+      tab: "ꞏ"
+    scrollPastEnd: true
+    showInvisibles: true
+    softWrap: true
+  "exception-reporting":
+    userId: "927853d4-6604-46e7-a8fd-ab80cf7ed7d5"
+  "ide-java":
+    server:
+      errors:
+        incompleteClasspath:
+          severity: "ignore"
+  welcome:
+    showOnStartup: false
