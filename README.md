@@ -9,7 +9,7 @@ The locker used is i3lock-fancy.<br>
 <br>
 <h3>Screenshots >> </h3><br>
 
-![main](https://user-images.githubusercontent.com/89124240/143732182-dc446053-7e48-4a32-affa-cc7f865b0bd3.png)
+![main2 0](https://user-images.githubusercontent.com/89124240/143839231-d7c27f8c-fd83-4746-bda4-a04cddb9219e.png)
 
 ![oprize2](https://user-images.githubusercontent.com/89124240/143388243-1de0ee89-da09-488f-aedb-b1be30a049ec.png)
 
