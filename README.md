@@ -3,7 +3,6 @@
 Expect some changes compared to the screenshots since im daily driving these dots.<br>
 Most color schemes are tokyo-night-storm.<br>
 Wallpaper is rain-blue.(found in wallpapers folder)<br>
-ed in screenshots is rain-blue.(found in wallpapers folder)<br>
 GTK is custom made using oomox.(https://github.com/themix-project/oomox)<br>
 The locker used is i3lock-fancy.<br>
 <br>
