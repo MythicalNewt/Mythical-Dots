@@ -36,13 +36,14 @@ set $urgent-bg-color     #1B60B3
 set $border              #7dcfff
 set $urgent-border       #f7768e
 set $focus-border        #929c9c
+set $unfocus-border      #565f89
 set $separator           #757575
 
 # window colors
 #                       border             background         text                  indicator     focused-border
 client.focused          $bg-color          $bg-color          $text-color           $border       $border
-client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color  $border       
-client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color  $border    
+client.unfocused        $unfocus-border    $unfocus-border    $unfocus-border       $border       $unfocus-border
+client.focused_inactive $unfocus-border    $unfocus-border    $unfocus-border       $border       $unfocus-border
 client.urgent           $urgent-bg-color   $urgent-bg-color   $urgent-text-color    $border       $urgent-border 
 
 # bar
