@@ -163,6 +163,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 assign [class="Alacritty"] $ws1
 assign [class="Brave-browser"] $ws2
 assign [class="Atom"] $ws3
+assign [class="code-oss"] $ws3
 assign [class="discord"] $ws4
 assign [class="spotify"] $ws5
 
@@ -223,6 +224,7 @@ bindsym $mod+shift+b exec brave -n --incognito
 bindsym $mod+shift+a exec atom
 bindsym $mod+shift+d exec ~/Discord/Discord
 bindsym $mod+shift+s exec spotify
+bindsym ctrl+shift+a exec code-oss
 
 # This removes title bars
 for_window [class="^.*"] border pixel 2
