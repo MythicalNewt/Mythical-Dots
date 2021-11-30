@@ -42,8 +42,8 @@ set $separator           #757575
 # window colors
 #                       border             background         text                  indicator     focused-border
 client.focused          $bg-color          $bg-color          $text-color           $border       $border
-client.unfocused        $unfocus-border    $unfocus-border    $unfocus-border       $border       $unfocus-border
-client.focused_inactive $unfocus-border    $unfocus-border    $unfocus-border       $border       $unfocus-border
+client.unfocused        $unfocus-border    $bg-color          $text-color           $border       $unfocus-border
+client.focused_inactive $unfocus-border    $bg-color          $text-color           $border       $unfocus-border
 client.urgent           $urgent-bg-color   $urgent-bg-color   $urgent-text-color    $border       $urgent-border 
 
 # bar
