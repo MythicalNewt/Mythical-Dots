@@ -200,7 +200,7 @@ mode "resize" {
 # resize mode binding
 bindsym $mod+r mode "resize"
 
-# Rofi powermenu binging requires https://github.com/okraits/rofi-tools rofi-power script shud be in /usr/local/bin
+# Rofi powermenu requires https://github.com/okraits/rofi-tools rofi-power script shud be in /usr/local/bin
 bindsym $mod+shift+e exec rofi-power "i3-msg exit"
 
 # Pulse Audio controls
