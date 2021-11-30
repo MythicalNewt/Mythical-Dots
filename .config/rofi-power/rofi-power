@@ -26,7 +26,7 @@ if [ ${#option} -gt 0 ]
 then
     case $option in
       Exit)
-        eval $1
+        i3-msg exit
         ;;
       Reboot)
         systemctl reboot
