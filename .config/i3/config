@@ -243,3 +243,6 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Polkit
 exec --no-startup-id lxsession 
+
+# Play with MPV
+exec --no-startup-id play-with-mpv
