@@ -204,8 +204,8 @@ bindsym $mod+r mode "resize"
 # Rofi powermenu requires https://github.com/okraits/rofi-tools rofi-power script shud be in /usr/local/bin
 bindsym $mod+shift+e exec rofi-power "i3-msg exit"
 
-# Sets volume to 35% on boot/relaunching of i3
-exec_always pactl set-sink-volume @DEFAULT_SINK@ 35%
+# Sets volume to 35% on boot of i3
+exec pactl set-sink-volume @DEFAULT_SINK@ 35%
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
