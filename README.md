@@ -1,7 +1,7 @@
 # Mythical-Dots
 <h3>» i3wm-dotfiles </h3><br>
 
-• <span style="text-decoration: underline">**WM**</span> - *i3*<br>
+• **WM** - *i3*<br>
 • **Bar** - *polybar*<br>
 • **Term** - *Alacritty*<br>
 • **Shell** - *zsh*<br>
@@ -9,10 +9,10 @@
 • **Locker** - *i3lock-fancy*<br>
 <br>
 ∙ _Expect some changes compared to the screenshots since im daily driving these dots._<br>
-∙ Most color schemes are tokyo-night-storm.<br>
-∙ Wallpaper is rain-blue. (found in wallpapers folder)<br>
-∙ GTK is custom made using oomox. (https://github.com/themix-project/oomox)<br>
-∙ The locker used is i3lock-fancy.<br>
+∙ _Most color schemes are tokyo-night-storm._<br>
+∙ _Wallpaper is rain-blue._ (found in wallpapers folder)<br>
+∙ _GTK is custom made using oomox._ (https://github.com/themix-project/oomox)<br>
+∙ _The locker used is i3lock-fancy._<br>
 <br>
 <h3>» Screenshots </h3><br>
 
@@ -28,6 +28,6 @@
 
 <br>
 <h3>» Credits </h3><br>
-⁍ hades: https://github.com/Aero-len <br>
-⁍ xXTgamerXx: https://github.com/xXTgamerXx<br>
-⁍ wallpapers: https://www.deviantart.com/bisbiswas
+⁍ **hades:** https://github.com/Aero-len <br>
+⁍ **xXTgamerXx:** https://github.com/xXTgamerXx<br>
+⁍ **wallpapers:** https://www.deviantart.com/bisbiswas
