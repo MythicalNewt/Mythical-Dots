@@ -28,6 +28,7 @@
 
 <br>
 <h3>» Credits </h3><br>
-⁍ **hades:** https://github.com/Aero-len <br>
-⁍ **xXTgamerXx:** https://github.com/xXTgamerXx<br>
-⁍ **wallpapers:** https://www.deviantart.com/bisbiswas
+
+⁍ **hades:** _https://github.com/Aero-len_<br>
+⁍ **xXTgamerXx:** _https://github.com/xXTgamerXx_<br>
+⁍ **wallpapers:** _https://www.deviantart.com/bisbiswas_
