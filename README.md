@@ -1,5 +1,5 @@
 # Mythical-Dots
-<h3>» i3wm-dotfiles </h3><br>
+<h2>» i3wm-dotfiles </h2><br>
 
 • **WM** - *i3*<br>
 • **Bar** - *polybar*<br>
@@ -14,7 +14,7 @@
 ∙ _GTK is custom made using oomox._ (https://github.com/themix-project/oomox)<br>
 ∙ _The locker used is i3lock-fancy._<br>
 <br>
-<h3>» Screenshots </h3><br>
+<h2>» Screenshots </h2><br>
 
 ![main2.0](https://user-images.githubusercontent.com/89124240/143839231-d7c27f8c-fd83-4746-bda4-a04cddb9219e.png)
 
@@ -27,7 +27,7 @@
 ![locker](https://user-images.githubusercontent.com/89124240/143732176-f262f952-70d1-49ca-8b9e-ace82b14c904.png)
 
 <br>
-<h3>» Credits </h3><br>
+<h2>» Credits </h2><br>
 
 ⁍ **hades:** _https://github.com/Aero-len_<br>
 ⁍ **xXTgamerXx:** _https://github.com/xXTgamerXx_<br>
