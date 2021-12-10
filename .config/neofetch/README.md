@@ -1,2 +1,3 @@
-<h3>Neofetch</h3>
-Config for the neofetch fetch program.
+<h2>➼ Neofetch</h2><br>
+
+*⁃ Config for the neofetch fetch program.*
