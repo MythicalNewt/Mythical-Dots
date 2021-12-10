@@ -1,4 +1,7 @@
-# ∫λ Mythical-Dots<br>
+![Mythical-Dots](https://user-images.githubusercontent.com/89124240/145592917-9b958c89-a715-48e5-927f-6bbde0d68225.png)<br>
+
+---
+
 <h2>» i3wm-dotfiles </h2><br>
 
 • **WM** - *i3*<br>
@@ -8,8 +11,6 @@
 • **Launcher** - *Rofi* <br>
 • **Locker** - *i3lock-fancy*<br>
 • **Colorscheme** - *The tokyonight palette*<br>
-
----
 
 <br>
 
