@@ -1,3 +1,3 @@
-<h2>Atom</h2><br>
+<h2>➼ Atom</h2><br>
 
-*Use with caution.*
+*⁃ Use with caution.*
