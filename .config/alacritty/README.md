@@ -1,2 +1,3 @@
-<h3>Alacritty</h3>
-Alacritty terminal emulator config.
+<h2>➼ Alacritty</h2><br>
+
+*⁃ Alacritty terminal emulator config.*
