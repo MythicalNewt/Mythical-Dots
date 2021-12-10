@@ -1,4 +1,4 @@
-![Mythical-Dots](https://user-images.githubusercontent.com/89124240/145592917-9b958c89-a715-48e5-927f-6bbde0d68225.png)<br>
+![Mythical-Dots](https://user-images.githubusercontent.com/89124240/145600279-da3fe588-8180-41ba-a910-e543270fe604.png)
 
 <h2>» i3wm-dotfiles </h2><br>
 
