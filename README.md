@@ -19,7 +19,7 @@
 
 ![main2.0](https://user-images.githubusercontent.com/89124240/143839231-d7c27f8c-fd83-4746-bda4-a04cddb9219e.png)
 
-![oprize2](https://user-images.githubusercontent.com/89124240/143388243-1de0ee89-da09-488f-aedb-b1be30a049ec.png)
+![tiling (2)](https://user-images.githubusercontent.com/89124240/145603807-79d9250a-7337-4523-bbfe-4d20fc18f7e1.png)
 
 ![rofi](https://user-images.githubusercontent.com/89124240/143732195-013240fe-2b64-4eca-807b-6543991eb4a9.png)
 
