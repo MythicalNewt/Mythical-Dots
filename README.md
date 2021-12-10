@@ -1,4 +1,4 @@
-# Mythical-Dots
+# ∫λ Mythical-Dots<br>
 <h2>» i3wm-dotfiles </h2><br>
 
 • **WM** - *i3*<br>
