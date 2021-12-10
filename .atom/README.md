@@ -1,2 +1,3 @@
-<h3>Atom</h3>
-Use with caution.
+<h2>Atom</h2><br>
+
+*Use with caution.*
