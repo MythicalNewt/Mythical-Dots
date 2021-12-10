@@ -9,9 +9,7 @@
 • **Launcher** - *Rofi* <br>
 • **Locker** - *i3lock-fancy*<br>
 • **Colorscheme** - *The tokyonight palette*<br>
-
 <br>
-
 ∙ _Expect some changes compared to the screenshots since im daily driving these dotfiles._<br>
 ∙ _Wallpaper is rain-blue._ (found in wallpapers folder)<br>
 ∙ _GTK is custom made using oomox._ (https://github.com/themix-project/oomox)<br>
