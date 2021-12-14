@@ -1,6 +1,6 @@
 ![Mythical-Dots](https://user-images.githubusercontent.com/89124240/145600279-da3fe588-8180-41ba-a910-e543270fe604.png)
 
-<h2>» i3wm-dotfiles </h2><br>
+<h1>» i3wm-dotfiles </h1><br>
 
 • **WM** - *i3*<br>
 • **Bar** - *polybar*<br>
@@ -15,7 +15,7 @@
 ∙ _GTK is custom made using oomox._ (https://github.com/themix-project/oomox)<br>
 
 <br>
-<h2>» Screenshots </h2><br>
+<h1>» Screenshots </h1><br>
 
 ![main2.0](https://user-images.githubusercontent.com/89124240/143839231-d7c27f8c-fd83-4746-bda4-a04cddb9219e.png)
 
@@ -28,7 +28,7 @@
 ![locker](https://user-images.githubusercontent.com/89124240/143732176-f262f952-70d1-49ca-8b9e-ace82b14c904.png)
 
 <br>
-<h2>» Credits </h2><br>
+<h1>» Credits </h1><br>
 
 ⁍ **hades:** _https://github.com/Aero-len_<br>
 ⁍ **xXTgamerXx:** _https://github.com/xXTgamerXx_<br>
