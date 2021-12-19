@@ -222,7 +222,7 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+b exec brave -n
 bindsym $mod+shift+b exec brave -n --incognito
 bindsym $mod+shift+a exec atom
-bindsym $mod+shift+d exec ~/Discord/Discord
+bindsym $mod+shift+d exec discord
 bindsym $mod+shift+s exec spotify
 bindsym ctrl+shift+a exec code-oss
 
@@ -246,3 +246,6 @@ exec --no-startup-id lxsession
 
 # Play with MPV refer https://github.com/Thann/play-with-mpv
 exec --no-startup-id play-with-mpv
+
+# Sets refresh rate
+exec xrandr -r 144.0
