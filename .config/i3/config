@@ -204,6 +204,9 @@ bindsym $mod+r mode "resize"
 # Rofi powermenu requires https://github.com/okraits/rofi-tools rofi-power script shud be in /usr/local/bin
 bindsym $mod+shift+e exec rofi-power "i3-msg exit"
 
+# Rofi screenshot
+bindsym ctrl+s exec rofi-screenshot 
+
 # Sets volume to 35% on boot of i3
 exec pactl set-sink-volume @DEFAULT_SINK@ 35%
 
@@ -249,3 +252,6 @@ exec --no-startup-id play-with-mpv
 
 # Sets refresh rate
 exec xrandr -r 144.0
+
+# Dunst autostart
+exec dunst

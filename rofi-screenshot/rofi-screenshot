@@ -14,7 +14,7 @@ shot_10="10 sec"
 # Variable passed to rofi
 options="$shot_now\n$select_shot\n$shot_2\n$shot_5\n$shot_10"
 
-chosen="$(echo -e "$options" | $rofi_command rofi -width 30 -dmenu -i -p  :)"
+chosen="$(echo -e "$options" | $rofi_command rofi -width 30 -dmenu -i -p " :")"
 case $chosen in
     $shot_now)
         scrot 'snap_%y_%m_%d_%H_%M.png' -q 100 -e 'mv $f ~/Pictures/ ; notify-send Screenshot -i ~/Pictures/$f -u normal "Snapshot Taken"'
