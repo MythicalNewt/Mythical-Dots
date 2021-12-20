@@ -3,4 +3,6 @@
 *⁃ Dunst is a customisable notfication daemon.*<br>
 *⁃ I use dunst with rofi-screenshot utility.*<br>
 
-![dunst](https://cdn.discordapp.com/attachments/831056036969840671/922533438286880828/unknown.png)
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/831056036969840671/922533438286880828/unknown.png" />
+</p>
