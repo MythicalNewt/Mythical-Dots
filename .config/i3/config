@@ -205,7 +205,7 @@ bindsym $mod+r mode "resize"
 bindsym $mod+shift+e exec rofi-power "i3-msg exit"
 
 # Rofi screenshot
-bindsym ctrl+s exec rofi-screenshot 
+bindsym $mod+shift+x exec rofi-screenshot 
 
 # Sets volume to 35% on boot of i3
 exec pactl set-sink-volume @DEFAULT_SINK@ 35%
