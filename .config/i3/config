@@ -251,7 +251,7 @@ exec --no-startup-id lxsession
 exec --no-startup-id play-with-mpv
 
 # Sets refresh rate
-exec xrandr -r 144.0
+exec --no-startup-id xrandr -r 144.0
 
 # Dunst autostart
-exec dunst
+exec --no-startup-id dunst
