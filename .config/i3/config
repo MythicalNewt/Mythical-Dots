@@ -255,3 +255,6 @@ exec --no-startup-id xrandr -r 144.0
 
 # Dunst autostart
 exec --no-startup-id dunst
+
+# Clipman start
+exec --no-startup-id xfce4-clipman
