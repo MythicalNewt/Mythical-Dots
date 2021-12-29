@@ -28,23 +28,18 @@ bindsym $mod+Shift+q kill
 
 # color variables
 set $bg-color 	         #2f343f
-set $inactive-bg-color   #2f343f
-set $text-color          #929c9c
-set $urgent-text-color   #2ec9c9 
-set $inactive-text-color #676E7D
-set $urgent-bg-color     #1B60B3
+set $text-color          #d5e0e6
+set $unfocus-text        #929c9c
 set $border              #7dcfff
 set $urgent-border       #f7768e
-set $focus-border        #929c9c
 set $unfocus-border      #565f89
-set $separator           #757575
 
 # window colors
 #                       border             background         text                  indicator     focused-border
 client.focused          $border            $bg-color          $text-color           $border       $border
-client.unfocused        $bg-color          $bg-color          $text-color           $border       $unfocus-border
-client.focused_inactive $bg-color          $bg-color          $text-color           $border       $unfocus-border
-client.urgent           $urgent-bg-color   $urgent-bg-color   $urgent-text-color    $border       $urgent-border 
+client.unfocused        $bg-color          $bg-color          $unfocus-text         $border       $unfocus-border
+client.focused_inactive $bg-color          $bg-color          $unfocus-text         $border       $unfocus-border
+client.urgent           $urgent-border     $bg-color          $text-color           $border       $urgent-border 
 
 # bar
 #bar {
@@ -256,5 +251,5 @@ exec --no-startup-id xrandr -r 144.0
 # Dunst autostart
 exec --no-startup-id dunst
 
-# Clipman start
+# Clipman startup
 exec --no-startup-id xfce4-clipman
