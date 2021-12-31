@@ -7,25 +7,24 @@
  */
 
 * {
-    background-color:            #1a1b26;
+    background-color:            #24283b;
     border-color:                #7dcfff;
     text-color:                  #d5e0e6;
     font:                        "JetBrainsMono Nerd Font 10";
     prompt-font:                 "JetBrainsMono Nerd Font Bold 10";
-    prompt-background:           #bb9af7;
-    prompt-foreground:           #1a1b26;
+    prompt-background:           #9780c8;
+    prompt-foreground:           #24283b;
     prompt-padding:              4px;
-    alternate-normal-background: #1a1b26;
+    alternate-normal-background: #24283b;
     alternate-normal-foreground: @text-color;
-    selected-normal-background:  #bb9af7;
-    selected-normal-foreground:  #1a1b26;
+    selected-normal-background:  #9780c8;
+    selected-normal-foreground:  #24283b;
     spacing:                     3;
 }
 #window {
     border:  2;
     padding: 5;
     width : 400;
-    border-radius: 2px;
 }
 #mainbox {
     border:  0;
