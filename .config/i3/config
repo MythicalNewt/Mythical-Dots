@@ -227,6 +227,12 @@ bindsym ctrl+shift+a exec code-oss
 # This removes title bars
 for_window [class="^.*"] border pixel 2
 
+# enable window icons for all windows
+for_window [all] title_window_icon on
+
+# enable window icons for all windows with extra horizontal padding
+for_window [all] title_window_icon padding 5px
+
 # Window gaps
 gaps inner 7
 
@@ -253,3 +259,6 @@ exec --no-startup-id dunst
 
 # Clipman startup
 exec --no-startup-id xfce4-clipman
+
+# Fetchcord start
+exec_always --no-startup-id ~/.local/bin/fetchcord
