@@ -156,6 +156,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 
 # workspace program assignments
 assign [class="Alacritty"] $ws1
+assign [class="kitty"] $ws1
 assign [class="Brave-browser"] $ws2
 assign [class="Atom"] $ws3
 assign [class="code-oss"] $ws3
@@ -231,7 +232,7 @@ for_window [class="^.*"] border pixel 2
 for_window [all] title_window_icon on
 
 # enable window icons for all windows with extra horizontal padding
-for_window [all] title_window_icon padding 5px
+for_window [all] title_window_icon padding 10px
 
 # Window gaps
 gaps inner 7
@@ -261,4 +262,4 @@ exec --no-startup-id dunst
 exec --no-startup-id xfce4-clipman
 
 # Fetchcord start
-exec_always --no-startup-id ~/.local/bin/fetchcord
+#exec_always --no-startup-id ~/.local/bin/fetchcord
