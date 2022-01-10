@@ -13,7 +13,7 @@
 ∙ _Expect some changes compared to the screenshots since im daily driving these dotfiles._<br>
 ∙ _Wallpaper is rain-blue._ (found in wallpapers folder)<br>
 ∙ _GTK is custom made using oomox._ (https://github.com/themix-project/oomox)<br>
-∙ _Added new darker themed configs._
+∙ _Added new darker themed configs._ (check last two screenshots)
 
 <br>
 <h1>» Screenshots </h1><br>
@@ -27,6 +27,10 @@
 ![rofipower](https://user-images.githubusercontent.com/89124240/143732201-6e5d4b42-41f7-4ef5-8b71-0d2ab7874446.png)
 
 ![locker](https://user-images.githubusercontent.com/89124240/143732176-f262f952-70d1-49ca-8b9e-ace82b14c904.png)
+
+![snap_22_01_08_22_24](https://user-images.githubusercontent.com/89124240/148653370-cb440e8f-acce-4572-be10-8fb64c2440b0.png)
+
+![snap_22_01_08_22_43](https://user-images.githubusercontent.com/89124240/148653373-8ee80e79-6a41-4c60-9fef-ab3f524f5cb1.png)
 
 <br>
 <h1>» Credits </h1><br>
