@@ -23,6 +23,8 @@
 
 ![snap_22_01_10_13_46](https://user-images.githubusercontent.com/89124240/148735819-d3a76fc8-8310-4763-966a-343cf304cf9b.png)
 
+![snap_22_01_10_15_02](https://user-images.githubusercontent.com/89124240/148744180-d15dc45f-8e5a-4450-b719-240c99fc4bd6.png)
+
 ![main2.0](https://user-images.githubusercontent.com/89124240/143839231-d7c27f8c-fd83-4746-bda4-a04cddb9219e.png)
 
 ![tiling (2)](https://user-images.githubusercontent.com/89124240/145603807-79d9250a-7337-4523-bbfe-4d20fc18f7e1.png)
