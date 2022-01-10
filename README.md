@@ -1,6 +1,7 @@
 ![Mythical-Dots](https://user-images.githubusercontent.com/89124240/147824938-d7c9fda3-c966-4205-a97d-1e037b359af5.png)
 
-<h1>» i3wm-dotfiles </h1><br>
+
+# » i3wm-dotfiles 
 
 • **WM** - *i3*<br>
 • **Bar** - *polybar*<br>
@@ -8,15 +9,19 @@
 • **Shell** - *zsh*<br>
 • **Launcher** - *Rofi* <br>
 • **Locker** - *i3lock-fancy*<br>
-• **Colorscheme** - *The tokyonight palette*<br>
-<br>
-∙ _Expect some changes compared to the screenshots since im daily driving these dotfiles._<br>
-∙ _Wallpaper is rain-blue._ (found in wallpapers folder)<br>
-∙ _GTK is custom made using oomox._ (https://github.com/themix-project/oomox)<br>
-∙ _Added new darker themed configs._ (check last two screenshots)
+• **Colorscheme** - *The tokyonight palette*
 
-<br>
-<h1>» Screenshots </h1><br>
+∙ _Expect some changes compared to the screenshots since im daily driving these dotfiles._<br>
+∙ _Wallpaper is rain-blue and Nonaction (tokyonightified)._ (found in wallpapers folder)<br>
+∙ _GTK is custom made using oomox._ (https://github.com/themix-project/oomox)<br>
+∙ _Added new darker themed configs._ (first two screenshots)
+
+
+# » Screenshots 
+
+![snap_22_01_10_13_43](https://user-images.githubusercontent.com/89124240/148735792-093cc0fd-af9b-4cde-ad63-1ed10c6137b2.png)
+
+![snap_22_01_10_13_46](https://user-images.githubusercontent.com/89124240/148735819-d3a76fc8-8310-4763-966a-343cf304cf9b.png)
 
 ![main2.0](https://user-images.githubusercontent.com/89124240/143839231-d7c27f8c-fd83-4746-bda4-a04cddb9219e.png)
 
@@ -28,12 +33,7 @@
 
 ![locker](https://user-images.githubusercontent.com/89124240/143732176-f262f952-70d1-49ca-8b9e-ace82b14c904.png)
 
-![snap_22_01_08_22_24](https://user-images.githubusercontent.com/89124240/148653370-cb440e8f-acce-4572-be10-8fb64c2440b0.png)
-
-![snap_22_01_08_22_43](https://user-images.githubusercontent.com/89124240/148653373-8ee80e79-6a41-4c60-9fef-ab3f524f5cb1.png)
-
-<br>
-<h1>» Credits </h1><br>
+# » Credits
 
 ⁍ **hades:** _https://github.com/Aero-len_<br>
 ⁍ **xXTgamerXx:** _https://github.com/xXTgamerXx_<br>
