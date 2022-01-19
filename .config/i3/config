@@ -253,7 +253,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id lxsession 
 
 # Play with MPV refer https://github.com/Thann/play-with-mpv
-exec --no-startup-id play-with-mpv
+# exec --no-startup-id play-with-mpv
 
 # Sets refresh rate
 exec --no-startup-id xrandr -r 144.0
@@ -264,5 +264,8 @@ exec --no-startup-id dunst
 # Clipman startup
 exec --no-startup-id xfce4-clipman
 
+# Hides cursor after 5 seconds
+exec --no-startup-id unclutter --timeout 5
+
 # Fetchcord start
-#exec_always --no-startup-id ~/.local/bin/fetchcord
+# exec_always --no-startup-id ~/.local/bin/fetchcord
