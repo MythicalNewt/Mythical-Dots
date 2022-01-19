@@ -10,19 +10,14 @@
 " show numbers as default
 :set number
 
-" Plugin manager handling YCM
-"execute pathogen#infect()
 syntax on
-"filetype plugin indent on
-
-" youcompleteme
-"let g:ycm_global_ycm_extra_conf = "/home/shreyas/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py"
 
 " plug imports
 set nocompatible
 call plug#begin()
 
 Plug 'ryanoasis/vim-devicons'
+Plug 'https://github.com/ycm-core/YouCompleteMe.git'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'https://github.com/preservim/nerdtree.git'
 Plug 'https://github.com/ap/vim-css-color.git' 
@@ -33,11 +28,13 @@ Plug 'itchyny/lightline.vim'
 
 call plug#end()
 
-let g:tokyonight_style = 'storm' " available: night, storm
-let g:tokyonight_enable_italic = 1
-let g:tokyonight_transparent_background = 1
 
+set termguicolors
+
+let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_enable_italic = 1
 colorscheme tokyonight
+let g:tokyonight_transparent_background = 1
 let g:lightline = {'colorscheme' : 'tokyonight'}
 
 set laststatus=2
@@ -49,6 +46,9 @@ let g:NERDTreeExactMatchHighlightFullName = 1
 let g:NERDTreePatternMatchHighlightFullName = 1
 let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
 let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
+
+" youcompleteme
+let g:ycm_global_ycm_extra_conf = "~/.vim/plugged/YouCompleteMe/.ycm_extra_conf.py"
 
 " tabwidth change for java
 autocmd Filetype java setlocal tabstop=2
