@@ -11,7 +11,7 @@
 autoload -U colors && colors
 
 # History related
-HISTFILE=~/.histfile
+HISTFILE=~/.cache/zsh/history/histfile
 HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.cache/zsh/history
@@ -54,6 +54,7 @@ alias ll="lsd -al"
 #alias neofetch="neofetch --source /home/shreyas/wallpapers/blackcat.txt --ascii_colors 2 3 4 5"
 alias ..="cd .."
 alias ...="cd ../.."
+alias icat="kitty +kitten icat"
 
 ### CHANGE TITLE OF TERMINALS
 #case ${TERM} in
@@ -127,7 +128,8 @@ export LANG=en_US.UTF-8
 export HISTCONTROL=ignoreboth
 export BROWSER=brave
 export EDITOR=vim
-export PATH
+export VISUAL=vim
+export PATH=$PATH:/usr/local/bin
 export TERMINAL=alacritty
 
 # zsh syntax highlighting stuff
@@ -142,3 +144,4 @@ eval "$(starship init zsh)"
 
 # zsh-syntax-highlighting call
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+
