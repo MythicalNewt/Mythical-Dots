@@ -21,7 +21,7 @@
 
 ![snap_22_01_10_13_43](https://user-images.githubusercontent.com/89124240/148735792-093cc0fd-af9b-4cde-ad63-1ed10c6137b2.png)
 
-![snap_22_01_10_13_46](https://user-images.githubusercontent.com/89124240/148735819-d3a76fc8-8310-4763-966a-343cf304cf9b.png)
+![snap_22_01_22_23_58](https://user-images.githubusercontent.com/89124240/150651030-6f926f39-b1a5-442d-87fb-9e30a977d666.png)
 
 ![snap_22_01_10_15_02](https://user-images.githubusercontent.com/89124240/148744180-d15dc45f-8e5a-4450-b719-240c99fc4bd6.png)
 
