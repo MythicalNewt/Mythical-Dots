@@ -203,10 +203,10 @@ bindsym $mod+r mode "resize"
 bindsym $mod+shift+e exec rofi-power "i3-msg exit"
 
 # Rofi screenshot
-bindsym $mod+shift+x exec rofi-screenshot 
+#bindsym $mod+shift+x exec rofi-screenshot 
 
 # Full screenshot
-bindsym Print exec printscr
+bindsym Print exec flameshot gui 
 
 # Sets volume to 35% on boot of i3
 exec pactl set-sink-volume @DEFAULT_SINK@ 35%
@@ -271,6 +271,9 @@ exec --no-startup-id xfce4-clipman
 
 # Hides cursor after 5 seconds
 exec --no-startup-id unclutter --timeout 5
+
+# Flameshot startup
+exec --no-startup-id flameshot --trayicon false
 
 # Fetchcord start
 # exec_always --no-startup-id ~/.local/bin/fetchcord
