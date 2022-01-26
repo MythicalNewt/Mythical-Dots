@@ -1,4 +1,4 @@
 #! /bin/sh
 
-scrot 'snap_%y_%m_%d_%H_%M.png' -q 100 -e 'mv $f ~/Pictures/ ; notify-send Screenshot -i ~/Pictures/$f -u normal "Snapshot Taken"'
+sleep 0.5 && scrot 'snap_%y_%m_%d_%H_%M.png' -q 100 -e 'mv $f ~/Pictures/ ; notify-send Screenshot -i ~/Pictures/$f -u normal "Snapshot Taken"'
 dunstify

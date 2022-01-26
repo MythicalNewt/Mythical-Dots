@@ -35,13 +35,13 @@ then
         systemctl poweroff
         ;;
       Suspend)
-        $($USE_LOCKER) && "$LOCKER"; systemctl suspend
+        $($USE_LOCKER) && sleep 0.5 && "$LOCKER"; systemctl suspend
         ;;
       Hibernate)
-        $($USE_LOCKER) && "$LOCKER"; systemctl hibernate
+        systemctl hibernate
         ;;
       Lock)
-        i3lock-fancy
+        sleep 0.5 && i3lock-fancy
         ;;	
       *)
         ;;
