@@ -275,5 +275,8 @@ exec --no-startup-id unclutter --timeout 5
 # Flameshot startup
 exec --no-startup-id flameshot --trayicon false
 
+# Autostart mpd
+exec --no-startup-id mpd
+
 # Fetchcord start
 # exec_always --no-startup-id ~/.local/bin/fetchcord
