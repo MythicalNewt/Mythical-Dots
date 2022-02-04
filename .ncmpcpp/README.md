@@ -1,4 +1,4 @@
-## ➼ Atom
+## ➼ ncmpcpp
 
 *⁃ Minimal mpd client.*
 
