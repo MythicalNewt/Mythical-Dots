@@ -161,7 +161,7 @@ assign [class="Brave-browser"] $ws2
 assign [class="Atom"] $ws3
 assign [class="code-oss"] $ws3
 assign [class="discord"] $ws4
-assign [class="spotify"] $ws5
+for_window [class=Spotify] move window to workspace 5
 
 # Reload the configuration file
 bindsym $mod+Shift+c reload
