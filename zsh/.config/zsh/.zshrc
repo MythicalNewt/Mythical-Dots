@@ -41,14 +41,12 @@ export KEYTIMEOUT=1
 #preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
 # Basic tab complete
-#autoload -U compinit
-#zstyle ':completion:*' menu select
-#zmodload zsh/complist
-#compinit
-#_comp_options+=(globdots)
-
+autoload -U compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+compinit
+_comp_options+=(globdots)
 plugins=(… zsh-completions)
-autoload -U compinit && compinit
 
 # Aliases
 alias ls="lsd -a"
