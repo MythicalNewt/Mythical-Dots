@@ -54,7 +54,7 @@ prompt {
 entry {
     blink: false;
     padding: 0 1.5% 0 0;
-    placeholder: "Search through apps";
+    placeholder: "Searching for something?";
 }
 
 listview {
