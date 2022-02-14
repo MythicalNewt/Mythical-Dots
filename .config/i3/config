@@ -57,7 +57,10 @@ client.urgent           $urgent-border     $bg-color          $text-color       
 #}
 
 # Rofi start
-bindsym $mod+d exec rofi -show run -display-run "烈 :"
+bindsym $mod+d exec rofi -show drun 
+
+# Alt tab like functionality with rofi
+bindsym $mod+t exec rofi -show window
 
 # Change focus
 bindsym $mod+j focus left

@@ -6,11 +6,10 @@
 
 configuration {
     modi: "drun";
-    display-drun: "";
+    display-drun: "烈 :";
     drun-display-format: "{name}";
-    font: "Iosevka Italic 10";
+    font: "Iosevka Italic 11";
     show-icons: true;
-    icon-theme: "oomox-dark";
 }
 
 * {
