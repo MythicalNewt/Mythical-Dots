@@ -60,7 +60,7 @@ client.urgent           $urgent-border     $bg-color          $text-color       
 bindsym $mod+d exec rofi -show drun 
 
 # Alt tab like functionality with rofi
-bindsym $mod+t exec rofi -show window
+bindsym $mod+t exec rofi -show window -display-window "缾  :"
 
 # Change focus
 bindsym $mod+j focus left
