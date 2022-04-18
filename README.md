@@ -3,18 +3,26 @@
 
 # » i3wm-dotfiles 
 
-• **WM** - *i3*<br>
-• **Bar** - *polybar*<br>
-• **Term** - *Alacritty*<br>
-• **Shell** - *zsh*<br>
-• **Launcher** - *Rofi* <br>
-• **Locker** - *i3lock-fancy*<br>
+• **WM** - *i3*
+
+• **Bar** - *polybar*
+
+• **Term** - *Alacritty*
+
+• **Shell** - *zsh*
+
+• **Launcher** - *Rofi* 
+
+• **Locker** - *i3lock-fancy*
+
 • **Colorscheme** - *The tokyonight palette*
 
-∙ _Expect some changes compared to the screenshots since im daily driving these dotfiles._<br>
-∙ _Wallpaper is rain-blue and Nonaction (tokyonightified)._ (found in wallpapers folder)<br>
-∙ _GTK is custom made using oomox._ (https://github.com/themix-project/oomox)<br>
-∙ _Added new darker themed configs._ (first two screenshots)<br>
+### » Notes
+
+∙ _GTK is custom made using oomox._
+
+∙ _Added new darker themed configs._ (first two screenshots)
+
 ∙ _Added new rofi theme check .config/rofi/New rofi config_
 
 
@@ -38,6 +46,10 @@
 
 # » Credits
 
-⁍ **hades:** _https://github.com/Aero-len_<br>
-⁍ **xXTgamerXx:** _https://github.com/xXTgamerXx_<br>
-⁍ **wallpapers:** _https://www.deviantart.com/bisbiswas_
+⁍ **Hades:** _https://github.com/Aero-len_
+
+⁍ **xXTgamerXx:** _https://github.com/xXTgamerXx_
+
+⁍ **Wallpapers:** _https://www.deviantart.com/bisbiswas_
+
+⁍ **GTK generator:** _https://github.com/themix-project/oomox_
