@@ -1,4 +1,6 @@
-![Mythical-Dots](https://user-images.githubusercontent.com/89124240/147824938-d7c9fda3-c966-4205-a97d-1e037b359af5.png)
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/89124240/147824938-d7c9fda3-c966-4205-a97d-1e037b359af5.png" width="800">
+</h1>
 <br>
 <br>
 <br>
