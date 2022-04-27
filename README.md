@@ -1,7 +1,7 @@
 ![Mythical-Dots](https://user-images.githubusercontent.com/89124240/147824938-d7c9fda3-c966-4205-a97d-1e037b359af5.png)
 <br>
 <br>
-<div align="centre">
+<div align="center">
   <img align="center" src="https://img.shields.io/static/v1?label=WM&message=I3&style=for-the-badge&color=FF9E64&logoColor=A9B1D6&labelColor=24283B">
   <img align="center" src="https://img.shields.io/static/v1?label=BAR&message=POLYBAR&style=for-the-badge&color=9ECE6A&logoColor=A9B1D6&labelColor=24283B">
   <img align="center" src="https://img.shields.io/static/v1?label=LAUNCHER&message=ROFI&style=for-the-badge&color=F7768E&logoColor=A9B1D6&labelColor=24283B">
