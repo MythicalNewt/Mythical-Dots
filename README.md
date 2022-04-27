@@ -1,15 +1,18 @@
 ![Mythical-Dots](https://user-images.githubusercontent.com/89124240/147824938-d7c9fda3-c966-4205-a97d-1e037b359af5.png)
 <br>
 <br>
+<br>
 <div align="center">
   <img align="center" src="https://img.shields.io/static/v1?label=WM&message=I3&style=for-the-badge&color=FF9E64&logoColor=A9B1D6&labelColor=24283B">
   <img align="center" src="https://img.shields.io/static/v1?label=BAR&message=POLYBAR&style=for-the-badge&color=9ECE6A&logoColor=A9B1D6&labelColor=24283B">
   <img align="center" src="https://img.shields.io/static/v1?label=LAUNCHER&message=ROFI&style=for-the-badge&color=F7768E&logoColor=A9B1D6&labelColor=24283B">
-  <img align="center" src="https://img.shields.io/static/v1?label=SHELL&message=ZSH&style=for-the-badge&color=7AA2F7&logoColor=A9B1D6&labelColor=24283B">
+  <img align="center" src="https://img.shields.io/static/v1?label=SHELL&message=ZSH&style=for-the-badge&color=9699A3&logoColor=A9B1D6&labelColor=24283B">
+  <img align="center" src="https://img.shields.io/static/v1?label=SHELL%20PROMPT&message=STARSHIP&style=for-the-badge&color=7AA2F7&logoColor=A9B1D6&labelColor=24283B">
   <img align="center" src="https://img.shields.io/static/v1?label=COLOR%20SCHEME&message=TOKYONIGHT&style=for-the-badge&color=BB9AF7&logoColor=A9B1D6&labelColor=24283B">
 </div>
 <br>
 <br>
+
 # » Screenshots 
 
 ![snap_22_01_10_13_43](https://user-images.githubusercontent.com/89124240/148735792-093cc0fd-af9b-4cde-ad63-1ed10c6137b2.png)
