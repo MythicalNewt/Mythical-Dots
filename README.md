@@ -7,7 +7,7 @@
   <img align="center" src="https://img.shields.io/static/v1?label=BAR&message=POLYBAR&style=for-the-badge&color=9ECE6A&logoColor=A9B1D6&labelColor=24283B">
   <img align="center" src="https://img.shields.io/static/v1?label=LAUNCHER&message=ROFI&style=for-the-badge&color=F7768E&logoColor=A9B1D6&labelColor=24283B">
   <img align="center" src="https://img.shields.io/static/v1?label=SHELL&message=ZSH&style=for-the-badge&color=9699A3&logoColor=A9B1D6&labelColor=24283B">
-  <img align="center" src="https://img.shields.io/static/v1?label=SHELL%20PROMPT&message=STARSHIP&style=for-the-badge&color=7AA2F7&logoColor=A9B1D6&labelColor=24283B">
+  <img align="center" src="https://img.shields.io/static/v1?label=TERMINAL%20EMULATOR&message=KITTY&style=for-the-badge&color=7AA2F7&logoColor=A9B1D6&labelColor=24283B">
   <img align="center" src="https://img.shields.io/static/v1?label=COLOR%20SCHEME&message=TOKYONIGHT&style=for-the-badge&color=BB9AF7&logoColor=A9B1D6&labelColor=24283B">
 <br>
 <br>
