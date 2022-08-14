@@ -106,6 +106,9 @@ alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/p
 alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
 alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
 
+# Update bootloader
+alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
 # Colorize grep output (good for log files)
 alias grep="grep --color=auto"
 alias egrep="egrep --color=auto"
