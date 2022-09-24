@@ -1,4 +1,5 @@
-<h2>➼ Starship Shell Prompt</h2><br>
+## ➼ Starship Shell Prompt
 
-*⁃ https://starship.rs/*<br>
+*⁃ https://starship.rs/*
+
 *⁃ Tweak to your liking.*
