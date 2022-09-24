@@ -55,7 +55,7 @@ plugins=(
 # Aliases
 alias ls="lsd -a"
 alias ll="lsd -al"
-#alias neofetch="neofetch --source /home/shreyas/wallpapers/blackcat.txt --ascii_colors 2 3 4 5"
+#alias neofetch="neofetch --source $HOME/wallpapers/blackcat.txt --ascii_colors 2 3 4 5"
 alias ..="cd .."
 alias ...="cd ../.."
 alias icat="kitty +kitten icat"
@@ -151,7 +151,7 @@ ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=green,bold-italic'
 
 # zsh-autosuggestions
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh # $ yay -S zsh-autosuggestions
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#586a60,bg=bold,underline"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#55606d,bg=bold,underline"
 
 # Starship shell prompt
 eval "$(starship init zsh)"
