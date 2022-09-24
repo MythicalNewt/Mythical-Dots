@@ -11,7 +11,7 @@
 autoload -U colors && colors
 
 # History related
-HISTFILE=~/.cache/zsh/history/histfile.txt
+HISTFILE=~/.cache/zsh/history.txt
 HISTSIZE=1000
 SAVEHIST=1000
 
@@ -46,7 +46,11 @@ zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
 _comp_options+=(globdots)
-plugins=(… zsh-completions)
+plugins=(
+  zsh-completions
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
 
 # Aliases
 alias ls="lsd -a"
@@ -106,18 +110,21 @@ alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/p
 alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
 alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
 
-# Update bootloader
-alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-
 # Colorize grep output (good for log files)
 alias grep="grep --color=auto"
 alias egrep="egrep --color=auto"
 alias fgrep="fgrep --color=auto"
 
+# Update bootloader
+alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
+# Mount hdd
+alias ddrive="sudo mount -t ntfs-3g /dev/sda2 /home/shreyas/Media/Data"
+
 # confirm before overwriting something
-alias cp="cp -i"
-alias mv="mv -i"
-alias rm="rm -i"
+#alias cp="cp -i"
+#alias mv="mv -i"
+#alias rm="rm -i"
 
 ## Prints random ascii art on startup ##
 #colorscript random
@@ -137,14 +144,18 @@ export TERMINAL=alacritty
 
 # zsh syntax highlighting stuff
 typeset -A ZSH_HIGHLIGHT_STYLES
-ZSH_HIGHLIGHT_STYLES[suffix-alias]='fg=magenta,underline'
-ZSH_HIGHLIGHT_STYLES[precommand]='fg=magenta,underline'
-ZSH_HIGHLIGHT_STYLES[arg0]='fg=magenta'
+ZSH_HIGHLIGHT_STYLES[suffix-alias]='fg=blue,underline'
+ZSH_HIGHLIGHT_STYLES[precommand]='fg=blue,underline'
+ZSH_HIGHLIGHT_STYLES[arg0]='fg=blue'
 ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=green,bold-italic'
+
+# zsh-autosuggestions
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh # $ yay -S zsh-autosuggestions
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#586a60,bg=bold,underline"
 
 # Starship shell prompt
 eval "$(starship init zsh)"
 
 # zsh-syntax-highlighting call
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null # $ yay -S zsh-syntax-highlighting
 
