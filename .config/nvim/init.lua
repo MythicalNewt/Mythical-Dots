@@ -7,5 +7,5 @@ require('plugins.treesitter-config')
 require('plugins.lualine-config')
 require('settings')
 require('plugins.nvim-tree-config')
-vim.api.nvim_set_hl(0, "StatusLineNC", { fg = "#b6becb", bg = "#1a1e24" })
+vim.api.nvim_set_hl(0, "StatusLineNC", { fg = "#b6becb", bg = "#1a1e24" })  -- You require to not get weird ^^^^ characters on your status bar
 vim.api.nvim_set_hl(0, "StatusLine", { fg = "#b6beca", bg = "#1a1e23" })
