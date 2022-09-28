@@ -121,6 +121,9 @@ alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 # Mount hdd
 alias ddrive="sudo mount -t ntfs-3g /dev/sda2 /home/shreyas/Media/Data"
 
+# Nvim to nv
+alias nv="nvim"
+
 # confirm before overwriting something
 #alias cp="cp -i"
 #alias mv="mv -i"
@@ -151,7 +154,7 @@ ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=green,bold-italic'
 
 # zsh-autosuggestions
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh # $ yay -S zsh-autosuggestions
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#586a60,bg=bold,underline"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#55606d,bg=bold,underline"
 
 # Starship shell prompt
 eval "$(starship init zsh)"
