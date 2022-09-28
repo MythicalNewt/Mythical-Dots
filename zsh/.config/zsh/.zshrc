@@ -55,7 +55,7 @@ plugins=(
 # Aliases
 alias ls="lsd -a"
 alias ll="lsd -al"
-#alias neofetch="neofetch --source /home/shreyas/wallpapers/blackcat.txt --ascii_colors 2 3 4 5"
+#alias neofetch="neofetch --source $HOME/wallpapers/blackcat.txt --ascii_colors 2 3 4 5"
 alias ..="cd .."
 alias ...="cd ../.."
 alias icat="kitty +kitten icat"
