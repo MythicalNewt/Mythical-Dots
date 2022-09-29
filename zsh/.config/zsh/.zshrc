@@ -55,7 +55,7 @@ plugins=(
 # Aliases
 alias ls="lsd -a"
 alias ll="lsd -al"
-#alias neofetch="neofetch --source $HOME/wallpapers/blackcat.txt --ascii_colors 2 3 4 5"
+#alias neofetch="neofetch --source /home/shreyas/wallpapers/blackcat.txt --ascii_colors 2 3 4 5"
 alias ..="cd .."
 alias ...="cd ../.."
 alias icat="kitty +kitten icat"
@@ -140,8 +140,8 @@ export VISUAL=vim
 export LANG=en_US.UTF-8
 export HISTCONTROL=ignoreboth
 export BROWSER=brave
-export EDITOR=vim
-export VISUAL=vim
+export EDITOR=nvim
+export VISUAL=nvim
 export PATH=$PATH:/usr/local/bin
 export TERMINAL=alacritty
 
