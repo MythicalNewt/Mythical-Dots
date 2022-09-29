@@ -2,13 +2,13 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     use {'decaycs/decay.nvim', as = 'decay'}
     use {
-     'kyazdani42/nvim-tree.lua',
-     requires = { 'kyazdani42/nvim-web-devicons',}, -- optional, for file icons
+        'kyazdani42/nvim-tree.lua',
+        requires = { 'kyazdani42/nvim-web-devicons',}, -- optional, for file icons
     --tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
     use {
-      'nvim-lualine/lualine.nvim',
-       requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+        'nvim-lualine/lualine.nvim',
+         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
     use 'neovim/nvim-lspconfig'
     use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
@@ -22,5 +22,11 @@ return require('packer').startup(function(use)
     }                     -- You can uncomment this later and run :luafile %
     use 'RRethy/vim-illuminate'
     use 'lukas-reineke/indent-blankline.nvim'
+    use 'andweeb/presence.nvim'
+    use "numToStr/FTerm.nvim"
+    use {
+        'romgrk/barbar.nvim',
+        requires = {'kyazdani42/nvim-web-devicons'}
+    }
     --use 'feline-nvim/feline.nvim'
 end)
