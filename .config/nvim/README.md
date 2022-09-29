@@ -8,4 +8,4 @@
 
 *⁃ I suggest taking only snippets from my config rather than the whole thing.*
 
-![image](https://user-images.githubusercontent.com/89124240/192843613-7eccd51c-5c0a-4f3a-ae97-940b829aa6d7.png)
+![image](https://user-images.githubusercontent.com/89124240/193108106-77f78ee0-48ba-47a6-8590-62659f4709b7.png)
