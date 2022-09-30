@@ -21,7 +21,6 @@ return require('packer').startup(function(use)
         run = ':TSUpdate' -- Packer will fail on first install comment this out and then install for first time
     }                     -- You can uncomment this later and run :luafile %
     use 'RRethy/vim-illuminate'
-    use 'andweeb/presence.nvim'
     use "numToStr/FTerm.nvim"
     use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
     use 'ellisonleao/glow.nvim'
