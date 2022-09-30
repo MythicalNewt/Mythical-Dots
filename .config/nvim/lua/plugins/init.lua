@@ -21,12 +21,20 @@ return require('packer').startup(function(use)
         run = ':TSUpdate' -- Packer will fail on first install comment this out and then install for first time
     }                     -- You can uncomment this later and run :luafile %
     use 'RRethy/vim-illuminate'
-    use 'lukas-reineke/indent-blankline.nvim'
     use 'andweeb/presence.nvim'
     use "numToStr/FTerm.nvim"
+    use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
+    use 'ellisonleao/glow.nvim'
+    use 'glepnir/dashboard-nvim'
     use {
-        'romgrk/barbar.nvim',
-        requires = {'kyazdani42/nvim-web-devicons'}
+        'nvim-telescope/telescope.nvim', tag = '0.1.x', -- $ yay -S ripgrep fd
+        -- or                            , branch = '0.1.0',
+        requires = { {'nvim-lua/plenary.nvim'} }
     }
-    --use 'feline-nvim/feline.nvim'
+    use {
+        "lukas-reineke/indent-blankline.nvim",
+        config = function()
+        require("indent_blankline").setup { filetype_exclude = { "dashboard" }}
+        end
+    }
 end)
