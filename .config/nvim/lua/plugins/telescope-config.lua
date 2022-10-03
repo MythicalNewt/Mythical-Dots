@@ -1,4 +1,9 @@
 require('telescope').setup{
+    pickers = {
+        find_files = {
+            hidden = true,
+        }
+    },
   --defaults = {
   --  -- Default configuration for telescope goes here:
   --  -- config_key = value,

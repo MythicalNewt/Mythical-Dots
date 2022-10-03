@@ -6,10 +6,10 @@ require('bufferline').setup {
         right_mouse_command = "bdelete! %d", -- can be a string | function, see "Mouse actions"
         left_mouse_command = "buffer %d",    -- can be a string | function, see "Mouse actions"
         --middle_mouse_command = nil,          -- can be a string | function, see "Mouse actions"
-        --indicator = {
-        --    icon = '▎', -- this should be omitted if indicator style is not 'icon'
-        --    style = 'icon' | 'underline' | 'none',
-        --},
+        indicator = {
+            icon = '▎', -- this should be omitted if indicator style is not 'icon'
+            style = 'icon', -- icon underline none
+        },
         buffer_close_icon = '',
         modified_icon = '●',
         close_icon = '',
@@ -75,13 +75,13 @@ require('bufferline').setup {
         ---- can also be a table containing 2 custom separators
         ---- [focused and unfocused]. eg: { '|', '|' }
         separator_style = "thin",
-        --enforce_regular_tabs = false | true,
+        enforce_regular_tabs = true,
         always_show_bufferline = true,
-        --hover = {
-        --    enabled = true,
-        --    delay = 200,
-        --    reveal = {'close'}
-        --},
+        hover = {
+            enabled = true,
+            delay = 200,
+            reveal = {'close'}
+        },
         --sort_by = 'insert_after_current' |'insert_at_end' | 'id' | 'extension' | 'relative_directory' | 'directory' | 'tabs' | function(buffer_a, buffer_b)
         --    -- add custom logic
         --    return buffer_a.modified > buffer_b.modified
