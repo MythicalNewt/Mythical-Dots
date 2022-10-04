@@ -6,8 +6,7 @@ vim.g.mapleader = ' '
 map('n', '<leader>t', ':NvimTreeToggle<CR>', opts) -- toggle nvim tree
 map('n', '<leader>c', ':noh<CR>', opts) -- clear search highlight
 
-vim.keymap.set('n', '<leader>`', '<CMD>lua require("FTerm").toggle()<CR>')
+map('n', '<leader>`', '<CMD>lua require("FTerm").toggle()<CR>', opts) -- open fterm
 
-vim.keymap.set('n', '<leader>ff', '<CMD>lua require("telescope.builtin").find_files()<CR>', opts)
-vim.keymap.set('n', '<leader>fg', '<CMD>lua require("telescope.builtin").live_grep()<CR>', opts)
-vim.keymap.set('n', '<leader>fh', '<CMD>lua require("telescope.builtin").help_tags()<CR>', opts)
+map('n', '<leader>ff', '<CMD>lua require("telescope.builtin").find_files()<CR>', opts) -- call telescope file searcher
+map('n', '<leader>fg', '<CMD>lua require("telescope.builtin").live_grep()<CR>', opts) -- search words in files through telescope
