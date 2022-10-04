@@ -36,4 +36,7 @@ return require('packer').startup(function(use)
         require("indent_blankline").setup { filetype_exclude = { "dashboard" }}
         end
     }
+    use {
+	    "windwp/nvim-autopairs",
+    }
 end)

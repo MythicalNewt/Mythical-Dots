@@ -28,7 +28,7 @@ require('bufferline').setup {
         --end,
         max_name_length = 18,
         max_prefix_length = 15, -- prefix used when a buffer is de-duplicated
-        truncate_names = true, -- whether or not tab names should be truncated
+        truncate_names = false, -- whether or not tab names should be truncated
         --tab_size = 18,
         diagnostics = "nvim_lsp",
         --diagnostics_update_in_insert = false,
@@ -77,11 +77,11 @@ require('bufferline').setup {
         separator_style = "thin",
         enforce_regular_tabs = true,
         always_show_bufferline = true,
-        hover = {
-            enabled = true,
-            delay = 200,
-            reveal = {'close'}
-        },
+        --hover = {
+        --    enabled = true,
+        --    delay = 200,
+        --    reveal = {'close'}
+        --},
         --sort_by = 'insert_after_current' |'insert_at_end' | 'id' | 'extension' | 'relative_directory' | 'directory' | 'tabs' | function(buffer_a, buffer_b)
         --    -- add custom logic
         --    return buffer_a.modified > buffer_b.modified
