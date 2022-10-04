@@ -124,6 +124,9 @@ alias ddrive="sudo mount -t ntfs-3g /dev/sda2 /home/shreyas/Media/Data"
 # Nvim to nv
 alias nv="nvim"
 
+# Git script
+alias neopush="~/.config/zsh/neopush.sh"
+
 # confirm before overwriting something
 #alias cp="cp -i"
 #alias mv="mv -i"
