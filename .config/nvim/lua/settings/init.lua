@@ -21,10 +21,9 @@ set.number = true
 set.cursorline = true
 
 set.hidden = true
-vim.cmd [[set mouse=a]]
+vim.cmd [[set mouse=a]] -- Allows mouse to be used
 
-vim.api.nvim_set_hl(0, "StatusLineNC", { fg = "#b6becb", bg = "#1a1e24" })
-vim.api.nvim_set_hl(0, "StatusLine", { fg = "#b6beca", bg = "#1a1e23" })
+-- This sets colour to dashboard
 vim.api.nvim_set_hl(0, "DashboardHeader", { fg = "#94F7C5" })
 vim.api.nvim_set_hl(0, "DashboardCenter", { fg = "#70A5EB" })
 vim.api.nvim_set_hl(0, "DashboardFooter", { fg = "#C68AEE" })

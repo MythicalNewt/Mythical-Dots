@@ -1,3 +1,4 @@
+-- Plugin imports
 require('settings')
 require('colorschemes.decay')
 require('mappings')
@@ -5,6 +6,7 @@ require('lsp-config.language-servers')
 require('lsp-config.cmp')
 require('plugins')
 require('plugins.treesitter-config')
+require('plugins.illuminate-config')
 require('plugins.lualine-config')
 require('plugins.fterm-config')
 require('plugins.nvim-tree-config')
@@ -13,5 +15,7 @@ require('plugins.glow-config')
 require('plugins.dashboard-config')
 require('plugins.telescope-config')
 require('plugins.autopairs-config')
+
+-- Without this bar will produce weird ^^^^^^^^ characters
 vim.api.nvim_set_hl(0, "StatusLineNC", { fg = "#b6becb", bg = "#1a1e24" })
 vim.api.nvim_set_hl(0, "StatusLine", { fg = "#b6beca", bg = "#1a1e23" })
