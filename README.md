@@ -15,6 +15,8 @@
 
 # » Screenshots 
 
+![image](https://user-images.githubusercontent.com/89124240/193265632-d3bc8247-3035-4794-964e-93012ae8da60.png)
+
 ![snap_22_01_10_13_43](https://user-images.githubusercontent.com/89124240/148735792-093cc0fd-af9b-4cde-ad63-1ed10c6137b2.png)
 
 ![snap_22_01_22_23_58](https://user-images.githubusercontent.com/89124240/150651030-6f926f39-b1a5-442d-87fb-9e30a977d666.png)
@@ -32,6 +34,10 @@
 ![locker](https://user-images.githubusercontent.com/89124240/143732176-f262f952-70d1-49ca-8b9e-ace82b14c904.png)
 
 # » Notes
+
+∙ _A bunch of configs that i use day to day, some are maintained some are not._
+
+∙ _I do not maintain wm related configs anymore, however i do maintain general configs such as that of zsh and nvim._
 
 ∙ _GTK is custom made using oomox._
 
