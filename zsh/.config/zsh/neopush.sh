@@ -12,5 +12,5 @@ cp ~/.config/zsh/.zshrc ~/git/MythicalNewt/Mythical-Dots/zsh/.config/zsh
 cp ~/.config/zsh/neopush.sh ~/git/MythicalNewt/Mythical-Dots/zsh/.config/zsh
 
 git add -A
-git commit -m "Backup script."
+git commit -m "Automatic push."
 git push
