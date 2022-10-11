@@ -12,8 +12,8 @@ autoload -U colors && colors
 
 # History related
 HISTFILE=~/.cache/zsh/history.txt
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=10000
+SAVEHIST=10000
 
 # VI mode related 
 bindkey -v
