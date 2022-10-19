@@ -77,4 +77,11 @@ require('lspconfig')['jdtls'].setup{ -- $ yay -S neovim-jdtls-git
     capabilities = capabilities,
     flags = lsp_flags,
 }
-
+require'lspconfig'.cssmodules_ls.setup {  -- npm i -g cssmodules-language-server
+    -- provide your on_attach to bind keymappings
+    on_attach = custom_on_attach,
+    -- optionally
+    init_options = {
+        camelCase = 'dashes',
+    },
+}
