@@ -135,18 +135,14 @@ alias neopush="~/.config/zsh/neopush.sh"
 ## Prints random ascii art on startup ##
 #colorscript random
 
-## vim related ignore ##
-export MICRO_TRUECOLOR=1
-export VISUAL=vim
-
 ## exports
 export LANG=en_US.UTF-8
 export HISTCONTROL=ignoreboth
-export BROWSER=brave
+export BROWSER=firefox
 export EDITOR=nvim
 export VISUAL=nvim
 export PATH=$PATH:/usr/local/bin
-export TERMINAL=alacritty
+#export QT_QPA_PLATFORM=wayland
 
 # zsh syntax highlighting stuff
 typeset -A ZSH_HIGHLIGHT_STYLES
