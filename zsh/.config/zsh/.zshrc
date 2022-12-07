@@ -142,7 +142,7 @@ export BROWSER=firefox
 export EDITOR=nvim
 export VISUAL=nvim
 export PATH=$PATH:/usr/local/bin
-#export QT_QPA_PLATFORM=wayland
+export QT_QPA_PLATFORM=wayland
 
 # zsh syntax highlighting stuff
 typeset -A ZSH_HIGHLIGHT_STYLES
