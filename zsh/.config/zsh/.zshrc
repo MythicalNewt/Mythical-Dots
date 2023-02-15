@@ -59,6 +59,8 @@ alias ll="lsd -al"
 alias ..="cd .."
 alias ...="cd ../.."
 alias icat="kitty +kitten icat"
+alias sudo="doas"
+alias sudoedit="doasedit"
 
 ### CHANGE TITLE OF TERMINALS
 #case ${TERM} in
