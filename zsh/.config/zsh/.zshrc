@@ -101,16 +101,16 @@ ex ()
 
 
 # pacman and yay
-alias pacsyu="sudo pacman -Syyu"                 # update only standard pkgs
+alias pacsyu="doas pacman -Syyu"                 # update only standard pkgs
 alias yaysua="yay -Sua --noconfirm"              # update only AUR pkgs (yay)
 alias yaysyu="yay -Syu --noconfirm"              # update standard pkgs and AUR pkgs (yay)
-alias unlock="sudo rm /var/lib/pacman/db.lck"    # remove pacman lock
+alias unlock="doas rm /var/lib/pacman/db.lck"    # remove pacman lock
 
 # get fastest mirrors
-alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
-alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
-alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
-alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
+alias mirror="doas reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
+alias mirrord="doas reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
+alias mirrors="doas reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
+alias mirrora="doas reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
 
 # Colorize grep output (good for log files)
 alias grep="grep --color=auto"
@@ -118,10 +118,10 @@ alias egrep="egrep --color=auto"
 alias fgrep="fgrep --color=auto"
 
 # Update bootloader
-alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias grub-update="doas ~/grub.sh"
 
 # Mount hdd
-alias ddrive="sudo mount -t ntfs-3g /dev/sda2 /home/shreyas/Media/Data"
+alias ddrive="doas mount -t ntfs-3g /dev/sda2 /home/shreyas/Media/Data"
 
 # Nvim to nv
 alias nv="nvim"
