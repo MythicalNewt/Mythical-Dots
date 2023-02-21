@@ -55,7 +55,7 @@ plugins=(
 # Aliases
 alias ls="lsd -a"
 alias ll="lsd -al"
-#alias neofetch="neofetch --source /home/shreyas/wallpapers/blackcat.txt --ascii_colors 2 3 4 5"
+#alias neofetch="neofetch --source ~/wallpapers/blackcat.txt --ascii_colors 2 3 4 5"
 alias ..="cd .."
 alias ...="cd ../.."
 alias icat="kitty +kitten icat"
@@ -121,7 +121,7 @@ alias fgrep="fgrep --color=auto"
 alias grub-update="doas ~/grub.sh"
 
 # Mount hdd
-alias ddrive="doas mount -t ntfs-3g /dev/sda2 /home/shreyas/Media/Data"
+alias ddrive="doas mount -t ntfs-3g /dev/sda2 ~/Media/Data"
 
 # Nvim to nv
 alias nv="nvim"
