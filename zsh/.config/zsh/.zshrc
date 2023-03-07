@@ -19,6 +19,13 @@ SAVEHIST=10000
 bindkey -v
 export KEYTIMEOUT=1
 
+# OPTs to enable
+setopt HASH_LIST_ALL
+setopt CORRECT
+# Zsh variable to determine what to ignore,
+# in this case everything starting with _ or . 
+CORRECT_IGNORE="[_|.]*"
+
 # Change cursor shape for different vi modes.
 #function zle-keymap-select {
 #  if [[ ${KEYMAP} == vicmd ]] ||
