@@ -49,7 +49,7 @@ require('lspconfig')['html'].setup{  -- requires latest version of nodejs $ yay 
     capabilities = capabilities,
     flags = lsp_flags,
 }
-require'lspconfig'.sumneko_lua.setup { -- $ yay -S lua-language-server
+require'lspconfig'.lua_ls.setup { -- $ yay -S lua-language-server
   settings = {
     Lua = {
       runtime = {
