@@ -31,17 +31,17 @@
 
 # » Notes
 
-∙ _A bunch of configs that i use day to day, some are maintained some are not._
+∙ A bunch of configs that i use day to day, some are maintained some are not.
 
-∙ _I do not maintain wm related configs anymore, however i do maintain general configs such as that of zsh and nvim._
+∙ I do not maintain wm related configs anymore, however i do maintain general configs such as that of zsh and nvim.
 
-∙ _GTK is custom made using oomox._
+∙ GTK is custom made using oomox.
 
-∙ _Added new darker themed configs._ (first two screenshots)
+∙ Added new darker themed configs. (first two screenshots)
 
-∙ _Added new rofi theme check .config/rofi/New rofi config_
+∙ Added new rofi theme check .config/rofi/New rofi config
 
-∙ _Locker is i3lock-fancy(AUR)_
+∙ Locker is i3lock-fancy(AUR)
 
 # » Credits
 
