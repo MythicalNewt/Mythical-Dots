@@ -31,9 +31,9 @@
 
 # » Notes
 
-∙ A bunch of configs that i use day to day, some are maintained some are not.
+∙ A bunch of configs that I use day to day, some are maintained some are not.
 
-∙ I do not maintain wm related configs anymore, however i do maintain general configs such as that of zsh and nvim.
+∙ I do not maintain wm related configs anymore, however I do maintain general configs such as that of zsh and nvim.
 
 ∙ GTK is custom made using oomox.
 
