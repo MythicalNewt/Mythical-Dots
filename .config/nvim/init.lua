@@ -1,22 +1,22 @@
--- Plugin imports
-require('settings')
-require('colorschemes.decay')
-require('mappings')
-require('lsp-config.language-servers')
-require('lsp-config.cmp')
-require('plugins')
-require('plugins.treesitter-config')
-require('plugins.illuminate-config')
-require('plugins.indent-blankline')
-require('plugins.lualine-config')
-require('plugins.fterm-config')
-require('plugins.nvim-tree-config')
-require('plugins.bufferline-config')
-require('plugins.glow-config')
-require('plugins.dashboard-config')
-require('plugins.telescope-config')
-require('plugins.autopairs-config')
+require "core"
 
--- Without this bar will produce weird ^^^^^^^^ characters
-vim.api.nvim_set_hl(0, "StatusLineNC", { fg = "#b6becb", bg = "#1a1e24" })
-vim.api.nvim_set_hl(0, "StatusLine", { fg = "#b6beca", bg = "#1a1e23" })
+local custom_init_path = vim.api.nvim_get_runtime_file("lua/custom/init.lua", false)[1]
+
+if custom_init_path then
+  dofile(custom_init_path)
+end
+
+require("core.utils").load_mappings()
+
+local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
+
+-- bootstrap lazy.nvim!
+if not vim.loop.fs_stat(lazypath) then
+  require("core.bootstrap").gen_chadrc_template()
+  require("core.bootstrap").lazy(lazypath)
+end
+
+vim.opt.rtp:prepend(lazypath)
+require "plugins"
+
+dofile(vim.g.base46_cache .. "defaults")

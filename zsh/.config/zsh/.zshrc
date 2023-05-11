@@ -60,8 +60,8 @@ plugins=(
 )
 
 # Aliases
-alias ls="lsd -a"
-alias ll="lsd -al"
+alias ls="lsd -A"
+alias ll="lsd -Al"
 #alias neofetch="neofetch --source ~/wallpapers/blackcat.txt --ascii_colors 2 3 4 5"
 alias ..="cd .."
 alias ...="cd ../.."
