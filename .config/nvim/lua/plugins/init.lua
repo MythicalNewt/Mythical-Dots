@@ -24,11 +24,9 @@ return require('packer').startup(function(use)
     use "numToStr/FTerm.nvim"  -- Terminal in neovim
     use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'} -- Provides emacs like tabs
     use 'ellisonleao/glow.nvim' -- Markdown preview plugin
-    use 'glepnir/dashboard-nvim' -- Dashboard
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.x', -- $ yay -S ripgrep fd 
-        -- or                            , branch = '0.1.0',
-        requires = { {'nvim-lua/plenary.nvim'} } -- File finder and more
+        requires = {'nvim-lua/plenary.nvim'} -- File finder and more
     }
     use {
         "lukas-reineke/indent-blankline.nvim", -- Indent line

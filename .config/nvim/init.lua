@@ -13,10 +13,10 @@ require('plugins.fterm-config')
 require('plugins.nvim-tree-config')
 require('plugins.bufferline-config')
 require('plugins.glow-config')
-require('plugins.dashboard-config')
+--require('plugins.dashboard-config')
 require('plugins.telescope-config')
 require('plugins.autopairs-config')
 
 -- Without this bar will produce weird ^^^^^^^^ characters
 vim.api.nvim_set_hl(0, "StatusLineNC", { fg = "#b6becb", bg = "#15191D" })
-vim.api.nvim_set_hl(0, "StatusLine", { fg = "#b6beca", bg = "#15191D" })
+vim.api.nvim_set_hl(0, "StatusLine", { fg = "#b6beca", bg = "#15191E" })
