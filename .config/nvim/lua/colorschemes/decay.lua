@@ -5,7 +5,7 @@ if not present then
 end
 
 decay.setup({
-  style = 'dark-decay',
+  style = 'default',
   italics = {
       code=true,
       comments =true,

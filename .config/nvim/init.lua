@@ -18,5 +18,5 @@ require('plugins.telescope-config')
 require('plugins.autopairs-config')
 
 -- Without this bar will produce weird ^^^^^^^^ characters
-vim.api.nvim_set_hl(0, "StatusLineNC", { fg = "#b6becb", bg = "#1a1e24" })
-vim.api.nvim_set_hl(0, "StatusLine", { fg = "#b6beca", bg = "#1a1e23" })
+vim.api.nvim_set_hl(0, "StatusLineNC", { fg = "#b6becb", bg = "#15191D" })
+vim.api.nvim_set_hl(0, "StatusLine", { fg = "#b6beca", bg = "#15191D" })
