@@ -7,7 +7,7 @@
 # Basic zsh config.
 # Author: MythicalNewt
 
-# Enable colors 
+## Enable colors 
 autoload -U colors && colors
 
 # History related
@@ -15,11 +15,11 @@ HISTFILE=~/.cache/zsh/history.txt
 HISTSIZE=10000
 SAVEHIST=10000
 
-# VI mode related 
+## VI mode related 
 bindkey -v
 export KEYTIMEOUT=1
 
-# OPTs to enable
+## OPTs to enable
 setopt HASH_LIST_ALL
 setopt CORRECT
 # Zsh variable to determine what to ignore,
@@ -47,7 +47,7 @@ CORRECT_IGNORE="[_|.]*"
 #echo -ne '\e[5 q' # Use beam shape cursor on startup.
 #preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
-# Basic tab complete
+## Basic tab complete
 autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
@@ -59,7 +59,7 @@ plugins=(
   zsh-syntax-highlighting
 )
 
-# Aliases
+## Aliases
 alias ls="lsd -A"
 alias ll="lsd -Al"
 #alias neofetch="neofetch --source ~/wallpapers/blackcat.txt --ascii_colors 2 3 4 5"
@@ -69,7 +69,7 @@ alias icat="kitty +kitten icat"
 alias sudo="doas"
 alias sudoedit="doasedit"
 
-### CHANGE TITLE OF TERMINALS
+## CHANGE TITLE OF TERMINALS
 #case ${TERM} in
 #  xterm*|rxvt*|Eterm*|aterm|kterm|gnome*|alacritty|st|konsole*)
 #    PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\007"'
@@ -79,7 +79,7 @@ alias sudoedit="doasedit"
 #    ;;
 #esac
 
-### ARCHIVE EXTRACTION
+## ARCHIVE EXTRACTION
 # usage: ex <file>
 ex ()
 {
@@ -107,36 +107,36 @@ ex ()
 }
 
 
-# pacman and yay
+## pacman and yay
 alias pacsyu="doas pacman -Syyu"                 # update only standard pkgs
 alias yaysua="yay -Sua --noconfirm"              # update only AUR pkgs (yay)
 alias yaysyu="yay -Syu --noconfirm"              # update standard pkgs and AUR pkgs (yay)
 alias unlock="doas rm /var/lib/pacman/db.lck"    # remove pacman lock
 
-# get fastest mirrors
+## get fastest mirrors
 alias mirror="doas reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
 alias mirrord="doas reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
 alias mirrors="doas reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
 alias mirrora="doas reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
 
-# Colorize grep output (good for log files)
+## Colorize grep output (good for log files)
 alias grep="grep --color=auto"
 alias egrep="egrep --color=auto"
 alias fgrep="fgrep --color=auto"
 
-# Update bootloader
+## Update bootloader
 alias grub-update="doas ~/grub.sh"
 
-# Mount hdd
+## Mount hdd
 alias ddrive="doas mount -t ntfs-3g /dev/sda2 ~/Media/Data"
 
-# Nvim to nv
+## Nvim to nv
 alias nv="nvim"
 
-# Git script
+## Git script
 alias neopush="~/.config/zsh/neopush.sh"
 
-# confirm before overwriting something
+## confirm before overwriting something
 #alias cp="cp -i"
 #alias mv="mv -i"
 #alias rm="rm -i"
@@ -153,21 +153,23 @@ export VISUAL=nvim
 export PATH=$PATH:/usr/local/bin
 export QT_QPA_PLATFORM=wayland
 export XZ_DEFAULTS="-T 0 --memlimit=10000MiB"
+export FZF_DEFAULT_OPTS="-i--preview 'bat --color=always {}'"
+export FZF_DEFAULT_COMMAND="fd --type f" # yay -S fd
 
-# zsh syntax highlighting stuff
+## zsh syntax highlighting stuff
 typeset -A ZSH_HIGHLIGHT_STYLES
 ZSH_HIGHLIGHT_STYLES[suffix-alias]='fg=blue,underline'
 ZSH_HIGHLIGHT_STYLES[precommand]='fg=blue,underline'
 ZSH_HIGHLIGHT_STYLES[arg0]='fg=blue'
 ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=green,bold-italic'
 
-# zsh-autosuggestions
+## zsh-autosuggestions
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh # $ yay -S zsh-autosuggestions
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#55606d,bg=bold,underline"
 
-# Starship shell prompt
+## Starship shell prompt
 eval "$(starship init zsh)"
 
-# zsh-syntax-highlighting call
+## zsh-syntax-highlighting call
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null # $ yay -S zsh-syntax-highlighting
 
