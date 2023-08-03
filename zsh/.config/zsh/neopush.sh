@@ -11,6 +11,5 @@ cp ~/.config/nvim/init.lua ~/git/MythicalNewt/Mythical-Dots/.config/nvim
 cp ~/.config/zsh/.zshrc ~/git/MythicalNewt/Mythical-Dots/zsh/.config/zsh
 cp ~/.config/zsh/neopush.sh ~/git/MythicalNewt/Mythical-Dots/zsh/.config/zsh
 
-git add -A
-git commit -m "Automatic push."
+git commit -am "Automatic push."
 git push
