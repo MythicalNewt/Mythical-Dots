@@ -110,7 +110,7 @@ ex ()
 ## pacman and yay
 alias pacsyu="doas pacman -Syyu"                                 # update only standard pkgs
 alias yaysua="yay -Sua --noconfirm"                              # update only AUR pkgs (yay)
-alias yaysyu="yay -Syu ---combinedupgrade --save --noconfirm"    # update standard pkgs and AUR pkgs (yay)
+alias yaysyu="yay -Syu --combinedupgrade --save --noconfirm"    # update standard pkgs and AUR pkgs (yay)
 alias unlock="doas rm /var/lib/pacman/db.lck"                    # remove pacman lock
 
 ## get fastest mirrors
