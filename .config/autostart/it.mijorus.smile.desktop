@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=it.mijorus.smile
+Exec=flatpak run --command=smile it.mijorus.smile --start-hidden
+X-Flatpak=it.mijorus.smile

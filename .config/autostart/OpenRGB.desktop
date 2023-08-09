@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=Utility;
+Comment=OpenRGB 0.71, for controlling RGB lighting.
+Icon=OpenRGB
+Name=OpenRGB
+StartupNotify=true
+Terminal=false
+Type=Application
+Exec=/home/shreyas/.config/autostart/openrgb.sh

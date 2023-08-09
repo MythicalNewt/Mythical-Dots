@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=rm ~/.mozilla/firefox/fuy0mmra.default-release-1677562633168/sessionstore-backups/* ~/.mozilla/firefox/fuy0mmra.default-release-1677562633168/sessionstore.jsonlz4
+Icon=tab-close
+Name=Remove Firefox session
+Terminal=False
+Type=Application
