@@ -2,19 +2,124 @@
 #
 # Author: MythicalNewt
 
-# Inserts a blank line between shell prompts
-add_newline = false
 command_timeout = 1000
 
-[line_break]
-disabled=true
+format = """
+[](fg:#5287cd)\
+$directory\
+[](fg:#5287cd bg:#a86cd0)\
+$git_branch\
+$git_status\
+[](fg:#a86cd0 bg:#c296eb)\
+$c\
+$elixir\
+$elm\
+$golang\
+$gradle\
+$haskell\
+$java\
+$julia\
+$lua\
+$nodejs\
+$nim\
+$rust\
+$scala\
+[ ](fg:#c296eb bg:#171B20)\
+"""
 
-#Replace the "❯" symbol in the prompt with "ﬦ"
-[character]                            # The name of the module we are configuring is "character"
-success_symbol = "[󰘧](bold green)"     # The "success_symbol" segment is being set to "ﬦ" with the color "bold green"
-error_symbol = "[󰘧](bold red)" 
-vicmd_symbol = "[ϟ](bold green)"
+# Disable the blank line at the start of the prompt
+# add_newline = false
 
-# Disable the package module, hiding it from the prompt completely
-[package]
-disabled = true
+# You can also replace your username with a neat symbol like   or disable this
+# and use the os module below
+[username]
+show_always = false
+style_user = "bg:#9A348E"
+style_root = "bg:#9A348E"
+format = '[$user ]($style)'
+disabled = false
+
+# An alternative to the username module which displays a symbol that
+# represents the current operating system
+[os]
+style = "bg:#9A348E"
+disabled = true # Disabled by default
+
+[directory]
+style = "fg:#171B20 bg:#5287cd"
+format = "[ $path ]($style)"
+truncation_length = 2
+truncation_symbol = "󰇘 /"
+
+[c]
+symbol = " "
+style = "fg:#171B20 bg:#c296eb"
+format = '[ $symbol ($version) ]($style)'
+
+[elixir]
+symbol = " "
+style = "fg:#171B20 bg:#c296eb"
+format = '[ $symbol ($version) ]($style)'
+
+[lua]
+symbol = "󰢱 "
+style = "fg:#171B20 bg:#c296eb"
+format = '[ $symbol ($version) ]($style)'
+
+[elm]
+symbol = " "
+style = "fg:#171B20 bg:#c296eb"
+format = '[ $symbol ($version) ]($style)'
+
+[git_branch]
+symbol = ""
+style = "fg:#171B20 bg:#a86cd0"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+style = "fg:#171B20 bg:#a86cd0"
+format = '[$all_status$ahead_behind ]($style)'
+
+[golang]
+symbol = " "
+style = "fg:#171B20 bg:#c296eb"
+format = '[ $symbol ($version) ]($style)'
+
+[gradle]
+style = "fg:#171B20 bg:#c296eb"
+format = '[ $symbol ($version) ]($style)'
+
+[haskell]
+symbol = " "
+style = "fg:#171B20 bg:#c296eb"
+format = '[ $symbol ($version) ]($style)'
+
+[java]
+symbol = " "
+style = "fg:#171B20 bg:#c296eb"
+format = '[ $symbol ($version) ]($style)'
+
+[julia]
+symbol = " "
+style = "fg:#171B20 bg:#c296eb"
+format = '[ $symbol ($version) ]($style)'
+
+[nodejs]
+symbol = ""
+style = "fg:#171B20 bg:#c296eb"
+format = '[ $symbol ($version) ]($style)'
+
+[nim]
+symbol = "󰆥 "
+style = "fg:#171B20 bg:#c296eb"
+format = '[ $symbol ($version) ]($style)'
+
+[rust]
+symbol = ""
+style = "fg:#171B20 bg:#c296eb"
+format = '[ $symbol ($version) ]($style)'
+
+[scala]
+symbol = " "
+style = "fg:#171B20 bg:#c296eb"
+format = '[ $symbol ($version) ]($style)'
