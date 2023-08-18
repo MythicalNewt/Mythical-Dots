@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=/usr/bin/echo "{\"profile-after-change\":true,\"final-ui-startup\":true,\"sessionstore-windows-restored\":false}" > ~/.mozilla/firefox/fuy0mmra.default-release-1677562633168/sessionCheckpoints.json
+Exec=rm -r ~/.mozilla/firefox/fuy0mmra.default-release-1677562633168/sessionstore-backups/* ~/.mozilla/firefox/fuy0mmra.default-release-1677562633168/sessionstore.js
 Name=Remove Firefox session
 Terminal=False
 Type=Application
