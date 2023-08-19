@@ -5,9 +5,9 @@
 command_timeout = 1000
 
 format = """
-[](fg:#5287cd)\
+[](fg:#6777e0)\
 $directory\
-[](fg:#5287cd bg:#a86cd0)\
+[](fg:#6777e0 bg:#a86cd0)\
 $git_branch\
 $git_status\
 [](fg:#a86cd0 bg:#c296eb)\
@@ -46,7 +46,7 @@ style = "bg:#9A348E"
 disabled = true # Disabled by default
 
 [directory]
-style = "fg:#171B20 bg:#5287cd"
+style = "fg:#171B20 bg:#6777e0"
 format = "[ $path ]($style)"
 truncation_length = 2
 truncation_symbol = "󰇘 /"
