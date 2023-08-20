@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=rm -r ~/.mozilla/firefox/fuy0mmra.default-release-1677562633168/sessionstore-backups/* ~/.mozilla/firefox/fuy0mmra.default-release-1677562633168/sessionstore.js
+Exec=/usr/bin/rm ~/.mozilla/firefox/fuy0mmra.default-release-1677562633168/sessionstore-backups/* ~/.mozilla/firefox/fuy0mmra.default-release-1677562633168/sessionstore.js
 Name=Remove Firefox session
-Terminal=False
+Terminal=false
 Type=Application
