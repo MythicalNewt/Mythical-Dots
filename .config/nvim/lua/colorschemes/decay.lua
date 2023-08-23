@@ -14,7 +14,7 @@ decay.setup({
    contrast = true, -- or false to disable tree contrast
   },
   cmp = {
-    block_kind = true,
+    block_kind = false,
   },
 })
 
