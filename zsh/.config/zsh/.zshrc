@@ -136,12 +136,13 @@ alias neopush="~/.config/zsh/neopush.sh"
 
 ## Environment variables
 export LANG=en_US.UTF-8
+export ALSOFT_LOGLEVEL=3
 export HISTCONTROL=ignoreboth
 export BROWSER=firefox
 export EDITOR=nvim
 export VISUAL=nvim
 export PATH=$PATH:/usr/local/bin
-QT_QPA_PLATFORM="wayland;xcb"
+export QT_QPA_PLATFORM="wayland;xcb"
 export XZ_DEFAULTS="-T 0 --memlimit=10000MiB"
 export FZF_DEFAULT_OPTS="-i --preview 'bat --color=always {}'"
 export FZF_DEFAULT_COMMAND="fd --type f" # yay -S fd
