@@ -136,7 +136,6 @@ alias neopush="~/.config/zsh/neopush.sh"
 
 ## Environment variables
 export LANG=en_US.UTF-8
-export ALSOFT_LOGLEVEL=3
 export HISTCONTROL=ignoreboth
 export BROWSER=firefox
 export EDITOR=nvim
