@@ -76,6 +76,7 @@ alias ...="cd ../.."
 alias icat="kitty +kitten icat"
 alias sudo="doas"
 alias sudoedit="doasedit"
+alias dotfiles="cd ~/git/MythicalNewt/Mythical-Dots"
 
 ## ARCHIVE EXTRACTION
 # usage: ex <file>
