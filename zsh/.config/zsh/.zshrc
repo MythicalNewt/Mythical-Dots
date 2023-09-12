@@ -127,7 +127,7 @@ alias fgrep="fgrep --color=auto"
 alias grub-update="doas ~/grub.sh"
 
 ## Mount hdd
-alias ddrive="doas mount -t ext4 /dev/sda1 /mnt/data"
+alias ddrive="doas mount -o relatime,rw,X-fstrim.notrim /dev/sda1 /mnt/data"
 
 ## Nvim to nv
 alias nv="nvim"
