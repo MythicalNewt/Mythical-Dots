@@ -28,13 +28,5 @@ return require('packer').startup(function(use)
         'nvim-telescope/telescope.nvim', tag = '0.1.x', -- $ yay -S ripgrep fd 
         requires = {'nvim-lua/plenary.nvim'} -- File finder and more
     }
-    use {
-        "lukas-reineke/indent-blankline.nvim", -- Indent line
-        config = function()
-        require("indent_blankline").setup { filetype_exclude = { "dashboard" }}
-        end
-    }
-    use {
-	    "windwp/nvim-autopairs", -- Inserts pairs of brackets and more
-    }
+    use "windwp/nvim-autopairs" -- Inserts pairs of brackets and more
 end)
