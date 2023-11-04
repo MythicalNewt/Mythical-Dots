@@ -6,11 +6,12 @@ cd ~/git/MythicalNewt/Mythical-Dots
 
 git pull
 
-cp -r ~/.config/nvim/lua ~/git/MythicalNewt/Mythical-Dots/.config/nvim
-cp ~/.config/nvim/init.lua ~/git/MythicalNewt/Mythical-Dots/.config/nvim
-cp ~/.config/zsh/.zshrc ~/git/MythicalNewt/Mythical-Dots/zsh/.config/zsh
-cp ~/.config/zsh/scripts/neopush.sh ~/git/MythicalNewt/Mythical-Dots/zsh/.config/zsh/scripts
-cp ~/.config/zsh/scripts/grub.sh ~/git/MythicalNewt/Mythical-Dots/zsh/.config/zsh/scripts
+cp -r ~/.config/nvim/lua ~/git/MythicalNewt/Mythical-Dots/.config/nvim/
+cp ~/.config/nvim/init.lua ~/git/MythicalNewt/Mythical-Dots/.config/nvim/
+cp ~/.config/zsh/.zshrc ~/git/MythicalNewt/Mythical-Dots/zsh/.config/zsh/
+cp ~/.config/zsh/scripts/* ~/git/MythicalNewt/Mythical-Dots/zsh/.config/zsh/scripts/
+cp ~/.config/autostart/* ~/git/MythicalNewt/Mythical-Dots/.config/autostart/
+cp ~/.config/environment.d/* ~/git/MythicalNewt/Mythical-Dots/.config/environment.d/
 
 git commit -am "Automatic push."
 git push

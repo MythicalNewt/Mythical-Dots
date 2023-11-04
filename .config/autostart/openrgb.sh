@@ -2,5 +2,5 @@
 
 # To add delay to the autostarting of openrgb
 /usr/bin/sleep 10
-export QT_QPA_PLATFORM=wayland;xcb
+export QT_QPA_PLATFORM=wayland
 /usr/bin/openrgb -p red --startminimized

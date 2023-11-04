@@ -6,4 +6,4 @@ Name=OpenRGB
 StartupNotify=true
 Terminal=false
 Type=Application
-Exec=env QT_QPA_PLATFORM=wayland;xcb /home/shreyas/.config/autostart/openrgb.sh
+Exec=env QT_QPA_PLATFORM=wayland /home/shreyas/.config/autostart/openrgb.sh
