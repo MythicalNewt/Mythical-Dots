@@ -1,4 +1,4 @@
-# This script automatically backs up zshrc and neovim configs
+# This script automatically backs up zshrc, neovim and miscellaneous configs
 
 #!/bin/zsh
 
