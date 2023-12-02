@@ -137,11 +137,11 @@ export VDPAU_DRIVER="radeonsi"
 export MOZ_ENABLE_WAYLAND=1
 
 ## Zsh syntax highlighting stuff
-typeset -A ZSH_HIGHLIGHT_STYLES
-ZSH_HIGHLIGHT_STYLES[suffix-alias]='fg=blue,underline'
-ZSH_HIGHLIGHT_STYLES[precommand]='fg=blue,underline'
-ZSH_HIGHLIGHT_STYLES[arg0]='fg=blue'
-ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=green,bold-italic'
+#typeset -A ZSH_HIGHLIGHT_STYLES
+#ZSH_HIGHLIGHT_STYLES[suffix-alias]='fg=blue,underline'
+#ZSH_HIGHLIGHT_STYLES[precommand]='fg=blue,underline'
+#ZSH_HIGHLIGHT_STYLES[arg0]='fg=blue'
+#ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=green,bold-italic'
 
 ## zsh-autosuggestions
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh # $ yay -S zsh-autosuggestions
@@ -151,5 +151,8 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#55606d,bg=bold,underline"
 eval "$(starship init zsh)"
 
 ## zsh-syntax-highlighting 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null # $ yay -S zsh-syntax-highlighting
+#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null # $ yay -S zsh-syntax-highlighting
+
+## zsh-fast-syntax-highlighting
+source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 
