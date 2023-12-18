@@ -101,6 +101,7 @@ alias ll="lsd -Al"
 alias ..="cd .."
 alias ...="cd ../.."
 alias icat="kitty +kitten icat"
+alias nv="nvim"
 alias sudo="doas"
 alias sudoedit="doasedit"
 alias dotfiles="cd ~/git/MythicalNewt/Mythical-Dots"
@@ -115,12 +116,13 @@ alias mirrora="doas reflector --latest 50 --number 20 --sort age --save /etc/pac
 alias grep="grep --color=auto"
 alias egrep="egrep --color=auto"
 alias fgrep="fgrep --color=auto"
-alias grub-update="doas ~/.config/zsh/scripts/grub.sh"
-alias ddrive="doas mount -o relatime,rw,X-fstrim.notrim /dev/sda1 /mnt/data"
-alias nv="nvim"
 
-## Git script
+## Mount harddrive
+alias ddrive="doas mount -o relatime,rw,X-fstrim.notrim /dev/sda1 /mnt/data"
+
+## Scripts
 alias neopush="~/.config/zsh/scripts/neopush.sh"
+alias grub-update="doas ~/.config/zsh/scripts/grub.sh"
 
 ## Environment variables
 export LANG=en_US.UTF-8
