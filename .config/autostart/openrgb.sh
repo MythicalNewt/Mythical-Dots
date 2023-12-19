@@ -1,6 +1,8 @@
-#!/bin/zsh
+#!/bin/sh
 
-# To add delay to the autostarting of openrgb
+# Running openrgb twice to fix it failing to set color profile to ram.
+
+/usr/bin/openrgb -p red --startminimized
 /usr/bin/sleep 10
-export QT_QPA_PLATFORM=wayland
+/usr/bin/killall openrgb
 /usr/bin/openrgb -p red --startminimized
