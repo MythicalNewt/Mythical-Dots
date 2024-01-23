@@ -145,6 +145,9 @@ export MOZ_ENABLE_WAYLAND=1
 #ZSH_HIGHLIGHT_STYLES[arg0]='fg=blue'
 #ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=green,bold-italic'
 
+## Jump around the filesystem
+[[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh # yay -S z
+
 ## zsh-autosuggestions
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh # $ yay -S zsh-autosuggestions
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#55606d,bg=bold,underline"

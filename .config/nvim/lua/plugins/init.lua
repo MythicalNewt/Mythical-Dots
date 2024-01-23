@@ -29,4 +29,5 @@ return require('packer').startup(function(use)
         requires = {'nvim-lua/plenary.nvim'} -- File finder and more
     }
     use "windwp/nvim-autopairs" -- Inserts pairs of brackets and more
+    use 'lervag/vimtex' -- LaTeX filetype and syntax plugin
 end)
