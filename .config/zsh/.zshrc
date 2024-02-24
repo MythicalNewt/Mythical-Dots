@@ -112,6 +112,7 @@ alias zrm="sudo zypper rm --clean-deps"
 alias zsearch="zypper se"
 alias zref="sudo zypper ref"
 alias zclean="sudo zypper cc ; sudo zypper purge-kernels"
+alias grubupd="sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
 
 ## Scripts
 alias neopush="~/.config/zsh/scripts/neopush.sh"
