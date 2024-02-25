@@ -119,6 +119,7 @@ alias neopush="~/.config/zsh/scripts/neopush.sh"
 
 ## Environment variables
 export LANG=en_US.UTF-8
+export PATH="$PATH:/sbin:/usr/sbin:usr/local/sbin"
 export HISTCONTROL=ignoreboth
 export BROWSER=librewolf
 export EDITOR=nvim
