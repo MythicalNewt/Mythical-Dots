@@ -98,6 +98,7 @@ ex ()
 ## Aliases
 alias ls="lsd -A"
 alias ll="lsd -Al"
+alias cd="z"
 alias ..="z .."
 alias ...="z ../.."
 alias icat="kitty +kitten icat"
@@ -129,6 +130,7 @@ export XZ_DEFAULTS="-T 0 --memlimit=10000MiB"
 export FZF_DEFAULT_OPTS="-i --preview 'bat --color=always {}'"
 export FZF_DEFAULT_COMMAND="fd --type f" # yay -S fd
 export MOZ_ENABLE_WAYLAND=1
+export QT_QPA_PLATFORM="xcb"
 
 #  ## Jump around the filesystem
 #  [[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh # yay -S z
