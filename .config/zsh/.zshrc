@@ -11,7 +11,7 @@
 autoload -U colors && colors
 
 # History related
-HISTFILE=~/.cache/zsh/history.txt
+HISTFILE=~/.config/zsh/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
@@ -22,43 +22,7 @@ export KEYTIMEOUT=1
 ## OPTs to enable
 setopt HASH_LIST_ALL
 setopt CORRECT
-# Zsh variable to determine what to ignore,
-# in this case everything starting with _ or . 
-CORRECT_IGNORE="[_|.]*"
-
-# ## Change cursor shape for different vi modes.
-# function zle-keymap-select {
-#   if [[ ${KEYMAP} == vicmd ]] ||
-#      [[ $1 = 'block' ]]; then
-#     echo -ne '\e[1 q'
-#   elif [[ ${KEYMAP} == main ]] ||
-#        [[ ${KEYMAP} == viins ]] ||
-#        [[ ${KEYMAP} = '' ]] ||
-#        [[ $1 = 'beam' ]]; then
-#     echo -ne '\e[5 q'
-#   fi
-# }
-# zle -N zle-keymap-select
-# zle-line-init() {
-#     zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
-#     echo -ne "\e[5 q"
-# }
-# zle -N zle-line-init
-# echo -ne '\e[5 q' # Use beam shape cursor on startup.
-# preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
-
-## Basic tab complete
-autoload -U compinit
-zstyle ':completion:*' menu select
-zmodload zsh/complist
-compinit
-_comp_options+=(globdots)
-plugins=(
-  git
-  zsh-completions
-  zsh-autosuggestions
-  fast-syntax-highlighting
-)
+setopt globdots
 
 ## Search with word and arrow keys
 autoload -U up-line-or-beginning-search
@@ -96,7 +60,7 @@ ex ()
 }
 
 ## Aliases
-alias ls="lsd -A"
+alias ls="lsd -A" # zin lsd
 alias ll="lsd -Al"
 alias cd="z"
 alias ..="z .."
@@ -114,43 +78,49 @@ alias zsearch="zypper se"
 alias zref="sudo zypper ref"
 alias zclean="sudo zypper cc ; sudo zypper purge-kernels"
 alias grubupd="sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
-
-## Scripts
 alias neopush="~/.config/zsh/scripts/neopush.sh"
 
 ## Environment variables
-export LANG=en_US.UTF-8
-export PATH="$PATH:/sbin:/usr/sbin:usr/local/sbin"
+export PATH="$PATH:/sbin:/usr/sbin:usr/local/sbin:$HOME/.cargo/bin"
 export HISTCONTROL=ignoreboth
-export BROWSER=librewolf
+export BROWSER=brave-browser
 export EDITOR=nvim
 export VISUAL=nvim
-export QT_QPA_PLATFORM="wayland"
+export SUDO_EDITOR=nvim
 export XZ_DEFAULTS="-T 0 --memlimit=10000MiB"
-export FZF_DEFAULT_OPTS="-i --preview 'bat --color=always {}'"
-export FZF_DEFAULT_COMMAND="fd --type f" # yay -S fd
-export MOZ_ENABLE_WAYLAND=1
-export QT_QPA_PLATFORM="xcb"
+export ZPLUGDIR="/usr/share/zsh/plugins"
+export LS_COLORS="$(vivid generate $ZDOTDIR/decay.yml)" # cargo install vivid
 
-#  ## Jump around the filesystem
-#  [[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh # yay -S z
-
-## zsh-autosuggestions
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh # $ yay -S zsh-autosuggestions
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#55606d,bg=bold,underline"
-  
-## Starship shell prompt
-eval "$(starship init zsh)"
-
-## Zoxide call 
-eval "$(zoxide init zsh)"
+#  ## Basic tab complete
+#  autoload -U compinit
+#  zstyle ':completion:*' menu select
+#  zmodload zsh/complist
+#  compinit
 
 ## zsh-completions
-fpath=(/usr/share/zsh/plugins/zsh-completions/src $fpath)
+fpath=($ZPLUGDIR/zsh-completions/src $fpath)
+zstyle ':completion::complete:*' use-cache on
+autoload -Uz compinit ; compinit
+  
+## fzf-tab
+source $ZPLUGDIR/fzf-tab/fzf-tab.plugin.zsh
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*' menu no
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'lsd -1a $realpath'
 
-## zsh-syntax-highlighting 
-#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null # $ yay -S zsh-syntax-highlighting
-
+## zsh-autosuggestions
+source $ZPLUGDIR/zsh-autosuggestions/zsh-autosuggestions.zsh 
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#55606d,bg=bold,underline"
+ 
 ## zsh-fast-syntax-highlighting
-source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source $ZPLUGDIR/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 
+## Atuin shell history explorer
+eval "$(atuin init zsh)" # zin atuin
+
+## Starship shell prompt
+eval "$(starship init zsh)" # zin starship
+
+## Zoxide call 
+eval "$(zoxide init zsh)" # zin zoxide
