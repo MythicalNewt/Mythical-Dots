@@ -110,7 +110,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'lsd -1a $realpath'
 
 ## zsh-autosuggestions
 source $ZPLUGDIR/zsh-autosuggestions/zsh-autosuggestions.zsh 
-ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd history completion)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#55606d,bg=bold,underline"
  
 ## zsh-fast-syntax-highlighting
