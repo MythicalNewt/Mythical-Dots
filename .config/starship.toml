@@ -8,9 +8,6 @@ format = """
 [](fg:#6777e0)\
 $directory\
 [](fg:#6777e0 bg:#a86cd0)\
-$git_branch\
-$git_status\
-[](fg:#a86cd0 bg:#c296eb)\
 $c\
 $elixir\
 $elm\
@@ -24,6 +21,9 @@ $nodejs\
 $nim\
 $rust\
 $scala\
+[](fg:#a86cd0 bg:#c296eb)\
+$git_branch\
+$git_status\
 [ ](fg:#c296eb bg:#171B20)\
 """
 
@@ -53,73 +53,73 @@ truncation_symbol = "󰇘/"
 
 [c]
 symbol = " "
-style = "fg:#171B20 bg:#c296eb"
+style = "fg:#171B20 bg:#a86cd0"
 format = '[ $symbol ($version) ]($style)'
 
 [elixir]
 symbol = " "
-style = "fg:#171B20 bg:#c296eb"
+style = "fg:#171B20 bg:#a86cd0"
 format = '[ $symbol ($version) ]($style)'
 
 [lua]
 symbol = "󰢱 "
-style = "fg:#171B20 bg:#c296eb"
+style = "fg:#171B20 bg:#a86cd0"
 format = '[ $symbol ($version) ]($style)'
 
 [elm]
 symbol = " "
-style = "fg:#171B20 bg:#c296eb"
+style = "fg:#171B20 bg:#a86cd0"
 format = '[ $symbol ($version) ]($style)'
 
 [git_branch]
 symbol = ""
-style = "fg:#171B20 bg:#a86cd0"
+style = "fg:#171B20 bg:#c296eb"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "fg:#171B20 bg:#a86cd0"
+style = "fg:#171B20 bg:#c296eb"
 format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
 symbol = " "
-style = "fg:#171B20 bg:#c296eb"
+style = "fg:#171B20 bg:#a86cd0"
 format = '[ $symbol ($version) ]($style)'
 
 [gradle]
-style = "fg:#171B20 bg:#c296eb"
+style = "fg:#171B20 bg:#a86cd0"
 format = '[ $symbol ($version) ]($style)'
 
 [haskell]
 symbol = " "
-style = "fg:#171B20 bg:#c296eb"
+style = "fg:#171B20 bg:#a86cd0"
 format = '[ $symbol ($version) ]($style)'
 
 [java]
 symbol = " "
-style = "fg:#171B20 bg:#c296eb"
+style = "fg:#171B20 bg:#a86cd0"
 format = '[ $symbol ($version) ]($style)'
 
 [julia]
 symbol = " "
-style = "fg:#171B20 bg:#c296eb"
+style = "fg:#171B20 bg:#a86cd0"
 format = '[ $symbol ($version) ]($style)'
 
 [nodejs]
 symbol = ""
-style = "fg:#171B20 bg:#c296eb"
+style = "fg:#171B20 bg:#a86cd0"
 format = '[ $symbol ($version) ]($style)'
 
 [nim]
 symbol = "󰆥 "
-style = "fg:#171B20 bg:#c296eb"
+style = "fg:#171B20 bg:#a86cd0"
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
 symbol = ""
-style = "fg:#171B20 bg:#c296eb"
+style = "fg:#171B20 bg:#a86cd0"
 format = '[ $symbol ($version) ]($style)'
 
 [scala]
 symbol = " "
-style = "fg:#171B20 bg:#c296eb"
+style = "fg:#171B20 bg:#a86cd0"
 format = '[ $symbol ($version) ]($style)'
